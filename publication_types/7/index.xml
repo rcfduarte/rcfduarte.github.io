@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/publication_types/7/</link>
+      <atom:link href="https://rcfduarte.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sun, 17 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>7</title>
+      <link>https://rcfduarte.github.io/publication_types/7/</link>
+    </image>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/publication/phd_thesis/</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/phd_thesis/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-organized sequence processing in recurrent neural networks with multiple interacting plasticity mechanisms</title>
+      <link>https://rcfduarte.github.io/publication/msc_thesis/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/msc_thesis/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

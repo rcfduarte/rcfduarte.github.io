@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spiking Neural Networks | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/tags/spiking-neural-networks/</link>
+      <atom:link href="https://rcfduarte.github.io/tags/spiking-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spiking Neural Networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/tags/spiking-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>Transferring state representations in hierarchical spiking neural networks</title>
+      <link>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The best spike filter kernel is a neuron</title>
+      <link>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

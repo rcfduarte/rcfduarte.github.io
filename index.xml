@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renato Duarte</title>
+    <link>https://rcfduarte.github.io/</link>
+      <atom:link href="https://rcfduarte.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Renato Duarte</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Renato Duarte</title>
+      <link>https://rcfduarte.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Passing the message: Representation transfer in modular balanced networks</title>
+      <link>https://rcfduarte.github.io/publication/state_transfer_2019/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/state_transfer_2019/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/shonan/</link>
+      <pubDate>Tue, 21 May 2019 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/shonan/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-sequence-processing-in-spiking-neural-networks/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</title>
+      <link>https://rcfduarte.github.io/publication/heterogeneity_2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/heterogeneity_2019/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transferring state representations in hierarchical spiking neural networks</title>
+      <link>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Encoding symbolic sequences with spiking neural reservoirs</title>
+      <link>https://rcfduarte.github.io/publication/ed_2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/ed_2018/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/cbmr/</link>
+      <pubDate>Wed, 16 May 2018 12:30:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/cbmr/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-processing-in-spiking-neural-networks-2-6/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/phd_defence/</link>
+      <pubDate>Thu, 03 May 2018 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/phd_defence/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-processing-in-spiking-neural-networks-3/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/publication/phd_thesis/</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/phd_thesis/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The best spike filter kernel is a neuron</title>
+      <link>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synaptic patterning and the timescales of cortical dynamics</title>
+      <link>https://rcfduarte.github.io/publication/coneur_2017/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/coneur_2017/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leveraging heterogeneity for neural computation with fading memory</title>
+      <link>https://rcfduarte.github.io/talk/ias_symposium_2016/</link>
+      <pubDate>Tue, 06 Dec 2016 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/ias_symposium_2016/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492523/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Decision-specific sequences of neural activity in balanced random networks driven by structured sensory input</title>
+      <link>https://rcfduarte.github.io/talk/inm_retreat_2016/</link>
+      <pubDate>Wed, 12 Oct 2016 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/inm_retreat_2016/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492640/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Closed loop interactions between spiking neural network and robotic simulators based on MUSIC and ROS</title>
+      <link>https://rcfduarte.github.io/publication/ros_music/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/ros_music/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://rcfduarte.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://rcfduarte.github.io/software/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/software/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>https://rcfduarte.github.io/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>https://rcfduarte.github.io/software/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/software/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synaptic adaptation stabilizes sequential stimulus representations</title>
+      <link>https://rcfduarte.github.io/talk/eurospin_2015/</link>
+      <pubDate>Sat, 23 May 2015 12:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/eurospin_2015/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492676/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Expansion and State-Dependent Variability along Sensory Processing Streams</title>
+      <link>https://rcfduarte.github.io/publication/jneuro_2015/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/jneuro_2015/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synaptic adaptation stabilizes sequential stimulus representations</title>
+      <link>https://rcfduarte.github.io/talk/gso2014/</link>
+      <pubDate>Wed, 17 Dec 2014 15:10:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/gso2014/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/3496736/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Liquid computing on and off the edge of chaos with a striatal microcircuit</title>
+      <link>https://rcfduarte.github.io/publication/striatum_lsm/</link>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/striatum_lsm/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic stability of sequential stimulus representations in adapting neuronal networks</title>
+      <link>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</link>
+      <pubDate>Wed, 22 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Organized Artificial Grammar Learning in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/agl/</link>
+      <pubDate>Fri, 25 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/agl/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/3496733/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Organized Artificial Grammar Learning in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/publication/agl_2014/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/agl_2014/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syntax processing properties of generic cortical circuits</title>
+      <link>https://rcfduarte.github.io/talk/occam2013/</link>
+      <pubDate>Thu, 30 May 2013 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/occam2013/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492745/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Processing structured symbolic sequences with Recurrent Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/eurospin_2013/</link>
+      <pubDate>Wed, 16 Jan 2013 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/eurospin_2013/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492835/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Self-organized sequence processing in recurrent neural networks with multiple interacting plasticity mechanisms</title>
+      <link>https://rcfduarte.github.io/publication/msc_thesis/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/msc_thesis/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rcfduarte.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rcfduarte.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

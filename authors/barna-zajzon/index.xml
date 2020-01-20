@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barna Zajzon | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/authors/barna-zajzon/</link>
+      <atom:link href="https://rcfduarte.github.io/authors/barna-zajzon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Barna Zajzon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Barna Zajzon</title>
+      <link>https://rcfduarte.github.io/authors/barna-zajzon/</link>
+    </image>
+    
+    <item>
+      <title>Passing the message: Representation transfer in modular balanced networks</title>
+      <link>https://rcfduarte.github.io/publication/state_transfer_2019/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/state_transfer_2019/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transferring state representations in hierarchical spiking neural networks</title>
+      <link>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

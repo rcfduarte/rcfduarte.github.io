@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Renato Duarte">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Computational studies addressing the dynamics and computational properties of biologically inspired spiking neurons and networks tend to assume (often for the sake of analytical tractability) a great degree of homogeneity in both neuronal and connectivity parameters. The biophysical reality, however, is radically different from a homogeneous system and multiple levels of complex heterogeneous properties co-exist and shape a local circuit’s emergent collective dynamics and information processing properties. Within each cortical module, the characteristic patterning of the microcircuit’s building blocks and their mechanistic interactions give rise to rich dynamics, which subserves local computation by shaping the spatiotemporal features of population responses. Despite their varying molecular, morphological and physiological features, cortical modules can be seen as variations on a common theme. In essence, notwithstanding the complex laminar patterning and differential input-output relations which might give rise to additional structural and functional sub-parcellations, cortical modules are large recurrently coupled neuronal networks, whose interactions are achieved primarily via spike-triggered excitatory and inhibitory transmission. The combined complexity of these heterogeneous building blocks can be leveraged by cortical microcircuits to provide a rich dynamical space where complex relational constructs, spanning multiple timescales, can be learned, represented and used for online information processing. In this study, we set out to systematically evaluate the role played by different sources of heterogeneity (structural, neuronal and synaptic) in the characteristics of population dynamics and the circuit’s capacity for online stimulus processing with fading memory, using cortical layer 2/3 microcircuits as a core inspiration for the circuit specification. We cross-reference various sources of experimental data regarding the composition and patterning of these microcircuits, accounting for different phenomena of interest (e.g. neuron types and corresponding sub-threshold characteristics, conductance properties of different receptor types, circuit-level connectivity and activity statistics, etc.), across different cortical regions, assuming a certain degree of generalization is possible. The methods applied in this study to quantify the dynamics and generic processing properties, being system-independent, can provide a valuable set of tools for microcircuit benchmarking. As carefully curated and organized datasets become increasingly available, it will become possible in the near future to apply increasingly realistic constrains and comparatively study the properties of realistic microcircuits, built to model specific cortical regions and input-output relations.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://rcfduarte.github.io/talk/ias_symposium_2016/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.c3aeeb44e1fcae6d104f3d860971bac3.css">
+
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://rcfduarte.github.io/talk/ias_symposium_2016/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@Renatocfduarte">
+  <meta property="twitter:creator" content="@Renatocfduarte">
+  
+  <meta property="og:site_name" content="Renato Duarte">
+  <meta property="og:url" content="https://rcfduarte.github.io/talk/ias_symposium_2016/">
+  <meta property="og:title" content="Leveraging heterogeneity for neural computation with fading memory | Renato Duarte">
+  <meta property="og:description" content="Computational studies addressing the dynamics and computational properties of biologically inspired spiking neurons and networks tend to assume (often for the sake of analytical tractability) a great degree of homogeneity in both neuronal and connectivity parameters. The biophysical reality, however, is radically different from a homogeneous system and multiple levels of complex heterogeneous properties co-exist and shape a local circuit’s emergent collective dynamics and information processing properties. Within each cortical module, the characteristic patterning of the microcircuit’s building blocks and their mechanistic interactions give rise to rich dynamics, which subserves local computation by shaping the spatiotemporal features of population responses. Despite their varying molecular, morphological and physiological features, cortical modules can be seen as variations on a common theme. In essence, notwithstanding the complex laminar patterning and differential input-output relations which might give rise to additional structural and functional sub-parcellations, cortical modules are large recurrently coupled neuronal networks, whose interactions are achieved primarily via spike-triggered excitatory and inhibitory transmission. The combined complexity of these heterogeneous building blocks can be leveraged by cortical microcircuits to provide a rich dynamical space where complex relational constructs, spanning multiple timescales, can be learned, represented and used for online information processing. In this study, we set out to systematically evaluate the role played by different sources of heterogeneity (structural, neuronal and synaptic) in the characteristics of population dynamics and the circuit’s capacity for online stimulus processing with fading memory, using cortical layer 2/3 microcircuits as a core inspiration for the circuit specification. We cross-reference various sources of experimental data regarding the composition and patterning of these microcircuits, accounting for different phenomena of interest (e.g. neuron types and corresponding sub-threshold characteristics, conductance properties of different receptor types, circuit-level connectivity and activity statistics, etc.), across different cortical regions, assuming a certain degree of generalization is possible. The methods applied in this study to quantify the dynamics and generic processing properties, being system-independent, can provide a valuable set of tools for microcircuit benchmarking. As carefully curated and organized datasets become increasingly available, it will become possible in the near future to apply increasingly realistic constrains and comparatively study the properties of realistic microcircuits, built to model specific cortical regions and input-output relations."><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://rcfduarte.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-05-05T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-01T23:44:48&#43;01:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rcfduarte.github.io/talk/ias_symposium_2016/"
+  },
+  "name": "Leveraging heterogeneity for neural computation with fading memory",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Institute for Advanced Simulation",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Forchungszentrum J\u0026uuml;lich",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": "Germany"
+    }
+    
+  },
+  
+  
+  "startDate": "2016-12-06T10:00:00Z",
+  
+  "endDate": "2016-12-06T10:30:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Renato Duarte"
+  },
+  
+  "description": "Computational studies addressing the dynamics and computational properties of biologically inspired spiking neurons and networks tend to assume (often for the sake of analytical tractability) a great degree of homogeneity in both neuronal and connectivity parameters. The biophysical reality, however, is radically different from a homogeneous system and multiple levels of complex heterogeneous properties co-exist and shape a local circuit’s emergent collective dynamics and information processing properties. Within each cortical module, the characteristic patterning of the microcircuit’s building blocks and their mechanistic interactions give rise to rich dynamics, which subserves local computation by shaping the spatiotemporal features of population responses. Despite their varying molecular, morphological and physiological features, cortical modules can be seen as variations on a common theme. In essence, notwithstanding the complex laminar patterning and differential input-output relations which might give rise to additional structural and functional sub-parcellations, cortical modules are large recurrently coupled neuronal networks, whose interactions are achieved primarily via spike-triggered excitatory and inhibitory transmission. The combined complexity of these heterogeneous building blocks can be leveraged by cortical microcircuits to provide a rich dynamical space where complex relational constructs, spanning multiple timescales, can be learned, represented and used for online information processing. In this study, we set out to systematically evaluate the role played by different sources of heterogeneity (structural, neuronal and synaptic) in the characteristics of population dynamics and the circuit’s capacity for online stimulus processing with fading memory, using cortical layer 2/3 microcircuits as a core inspiration for the circuit specification. We cross-reference various sources of experimental data regarding the composition and patterning of these microcircuits, accounting for different phenomena of interest (e.g. neuron types and corresponding sub-threshold characteristics, conductance properties of different receptor types, circuit-level connectivity and activity statistics, etc.), across different cortical regions, assuming a certain degree of generalization is possible. The methods applied in this study to quantify the dynamics and generic processing properties, being system-independent, can provide a valuable set of tools for microcircuit benchmarking. As carefully curated and organized datasets become increasingly available, it will become possible in the near future to apply increasingly realistic constrains and comparatively study the properties of realistic microcircuits, built to model specific cortical regions and input-output relations."
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Leveraging heterogeneity for neural computation with fading memory | Renato Duarte</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Renato Duarte</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/about/"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/talk/"><span>Presentations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact/"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/CV_Final.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Leveraging heterogeneity for neural computation with fading memory</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/admin/">Renato Duarte</a></span>
+
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://rcfduarte.github.io/talk/ias_symposium_2016/&amp;text=Leveraging%20heterogeneity%20for%20neural%20computation%20with%20fading%20memory" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://rcfduarte.github.io/talk/ias_symposium_2016/&amp;t=Leveraging%20heterogeneity%20for%20neural%20computation%20with%20fading%20memory" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Leveraging%20heterogeneity%20for%20neural%20computation%20with%20fading%20memory&amp;body=https://rcfduarte.github.io/talk/ias_symposium_2016/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://rcfduarte.github.io/talk/ias_symposium_2016/&amp;title=Leveraging%20heterogeneity%20for%20neural%20computation%20with%20fading%20memory" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Leveraging%20heterogeneity%20for%20neural%20computation%20with%20fading%20memory%20https://rcfduarte.github.io/talk/ias_symposium_2016/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Computational studies addressing the dynamics and computational properties of biologically inspired spiking neurons and networks tend to assume (often for the sake of analytical tractability) a great degree of homogeneity in both neuronal and connectivity parameters. The biophysical reality, however, is radically different from a homogeneous system and multiple levels of complex heterogeneous properties co-exist and shape a local circuit’s emergent collective dynamics and information processing properties. Within each cortical module, the characteristic patterning of the microcircuit’s building blocks and their mechanistic interactions give rise to rich dynamics, which subserves local computation by shaping the spatiotemporal features of population responses. Despite their varying molecular, morphological and physiological features, cortical modules can be seen as variations on a common theme. In essence, notwithstanding the complex laminar patterning and differential input-output relations which might give rise to additional structural and functional sub-parcellations, cortical modules are large recurrently coupled neuronal networks, whose interactions are achieved primarily via spike-triggered excitatory and inhibitory transmission. The combined complexity of these heterogeneous building blocks can be leveraged by cortical microcircuits to provide a rich dynamical space where complex relational constructs, spanning multiple timescales, can be learned, represented and used for online information processing. In this study, we set out to systematically evaluate the role played by different sources of heterogeneity (structural, neuronal and synaptic) in the characteristics of population dynamics and the circuit’s capacity for online stimulus processing with fading memory, using cortical layer 2/3 microcircuits as a core inspiration for the circuit specification. We cross-reference various sources of experimental data regarding the composition and patterning of these microcircuits, accounting for different phenomena of interest (e.g. neuron types and corresponding sub-threshold characteristics, conductance properties of different receptor types, circuit-level connectivity and activity statistics, etc.), across different cortical regions, assuming a certain degree of generalization is possible. The methods applied in this study to quantify the dynamics and generic processing properties, being system-independent, can provide a valuable set of tools for microcircuit benchmarking. As carefully curated and organized datasets become increasingly available, it will become possible in the near future to apply increasingly realistic constrains and comparatively study the properties of realistic microcircuits, built to model specific cortical regions and input-output relations.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Dec 6, 2016 10:00 &mdash; 10:30
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.fz-juelich.de/SharedDocs/Termine/IAS/DE/2016/ias-symposium-2016.html" target="_blank" rel="noopener">
+            IAS Symposium 2016
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Institute for Advanced Simulation</div>
+          
+            
+            
+            
+            
+            
+            
+            
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">Forchungszentrum J&uuml;lich, Germany</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <div>
+  <iframe
+    src="https://widgets.figshare.com/articles/11492523/embed?show_title=1"  
+    width="600" 
+    height="500" 
+    allowfullscreen="true" 
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true"
+    frameborder="1">
+  </iframe>
+<div>
+
+	
+
+    </div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu307484f9c7548a231e57d4dd112f357d_65403_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://rcfduarte.github.io/">Renato Duarte</a></h5>
+      <h6 class="card-subtitle">Computational Cognitive Neuroscience</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-6099-667X" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.de/citations?user=NeD4kokAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://publons.com/researcher/N-6981-2013/" target="_blank" rel="noopener">
+        <i class="ai ai-publons"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Renato_Duarte" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://osf.io/y3cdn/" target="_blank" rel="noopener">
+        <i class="ai ai-osf"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.mendeley.com/profiles/renato-duarte/" target="_blank" rel="noopener">
+        <i class="ai ai-mendeley"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://dblp.uni-trier.de/pers/hd/d/Duarte:Renato_Carlos_Farinha" target="_blank" rel="noopener">
+        <i class="ai ai-dblp"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://profiles.impactstory.org/u/0000-0001-6099-667X" target="_blank" rel="noopener">
+        <i class="ai ai-impactstory"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/rcfduarte" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Renatocfduarte" target="_blank" rel="noopener">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/rcfduarte" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/renatocfduarte/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/py.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

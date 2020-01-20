@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heterogeneity | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/tags/heterogeneity/</link>
+      <atom:link href="https://rcfduarte.github.io/tags/heterogeneity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Heterogeneity</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Heterogeneity</title>
+      <link>https://rcfduarte.github.io/tags/heterogeneity/</link>
+    </image>
+    
+    <item>
+      <title>Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</title>
+      <link>https://rcfduarte.github.io/publication/heterogeneity_2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/heterogeneity_2019/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Closed loop interactions between spiking neural network and robotic simulators based on MUSIC and ROS</title>
+      <link>https://rcfduarte.github.io/publication/ros_music/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/ros_music/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

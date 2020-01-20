@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/talk/</link>
+      <atom:link href="https://rcfduarte.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Presentations</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Presentations</title>
+      <link>https://rcfduarte.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/shonan/</link>
+      <pubDate>Tue, 21 May 2019 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/shonan/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-sequence-processing-in-spiking-neural-networks/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/cbmr/</link>
+      <pubDate>Wed, 16 May 2018 12:30:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/cbmr/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-processing-in-spiking-neural-networks-2-6/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/phd_defence/</link>
+      <pubDate>Thu, 03 May 2018 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/phd_defence/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://slides.com/renatocfduarte/state-dependent-processing-in-spiking-neural-networks-3/embed&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Leveraging heterogeneity for neural computation with fading memory</title>
+      <link>https://rcfduarte.github.io/talk/ias_symposium_2016/</link>
+      <pubDate>Tue, 06 Dec 2016 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/ias_symposium_2016/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492523/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Decision-specific sequences of neural activity in balanced random networks driven by structured sensory input</title>
+      <link>https://rcfduarte.github.io/talk/inm_retreat_2016/</link>
+      <pubDate>Wed, 12 Oct 2016 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/inm_retreat_2016/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492640/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Synaptic adaptation stabilizes sequential stimulus representations</title>
+      <link>https://rcfduarte.github.io/talk/eurospin_2015/</link>
+      <pubDate>Sat, 23 May 2015 12:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/eurospin_2015/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492676/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Synaptic adaptation stabilizes sequential stimulus representations</title>
+      <link>https://rcfduarte.github.io/talk/gso2014/</link>
+      <pubDate>Wed, 17 Dec 2014 15:10:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/gso2014/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/3496736/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Organized Artificial Grammar Learning in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/agl/</link>
+      <pubDate>Fri, 25 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/agl/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/3496733/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syntax processing properties of generic cortical circuits</title>
+      <link>https://rcfduarte.github.io/talk/occam2013/</link>
+      <pubDate>Thu, 30 May 2013 10:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/occam2013/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492745/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+    <item>
+      <title>Processing structured symbolic sequences with Recurrent Neural Networks</title>
+      <link>https://rcfduarte.github.io/talk/eurospin_2013/</link>
+      <pubDate>Wed, 16 Jan 2013 14:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/talk/eurospin_2013/</guid>
+      <description>&lt;div&gt;
+  &lt;iframe
+    src=&#34;https://widgets.figshare.com/articles/11492835/embed?show_title=1&#34;  
+    width=&#34;600&#34; 
+    height=&#34;500&#34; 
+    allowfullscreen=&#34;true&#34; 
+    mozallowfullscreen=&#34;true&#34;
+    webkitallowfullscreen=&#34;true&#34;
+    frameborder=&#34;1&#34;&gt;
+  &lt;/iframe&gt;
+&lt;div&gt;
+
+	
+</description>
+    </item>
+    
+  </channel>
+</rss>
