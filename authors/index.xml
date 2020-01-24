@@ -6,18 +6,13 @@
       <atom:link href="https://rcfduarte.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://rcfduarte.github.io/img/icon-192.png</url>
-      <title>Authors</title>
-      <link>https://rcfduarte.github.io/authors/</link>
-    </image>
-    
     <item>
       <title></title>
       <link>https://rcfduarte.github.io/authors/admin/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://rcfduarte.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Postdoctoral researcher working at the intersection of computational neuroscience and cognitive / behavioral sciences.&lt;/p&gt;
+      <description>&lt;p&gt;I am a postdoctoral researcher in computational cognitive neuroscience, passionately curious about everything &lt;em&gt;neuro-&lt;/em&gt;. I am deeply invested in bridging the gaps between mind and brain and clarifying the biophysical underpinnings of human cognition and behavior, i.e. &lt;em&gt;how the brain computes the mind&lt;/em&gt;. I live comfortably with the notion that &amp;ldquo;we are nothing but a pack of neurons”, which I consider to be far from a reductionist view and I firmly believe that a thorough understanding of the underlying processes is critical to clarify the broader questions of &lt;em&gt;who we are&lt;/em&gt; and &lt;em&gt;how we work&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;My research focuses on computation in neocortical systems, with a particular focus (and personal interest) on the functional impact of synaptic properties. I argue for an integrative approach where cognitive and biophysical constraints are combined at different levels to shed light on the nature of neural computation. A systematic decomposition of cognitive and behavioral processes into their atomic, algorithmic components is strictly required but, for any such sub-component, the space of models that can possibly account for it is enormous. Constraints on this model space ought to be applied based on neurobiology, i.e. the best way to solve these problems, I argue, is to use the detailed biology of the brain (and its place in the natural world) as a guide and systematically decompose the system into reusable components and operating principles that can be causally linked to relevant computational aspects in the relevant cognitive domains. Ideally, we wish to illustrate such principles in a way that is generalizable given that the design of the system suggests a certain degree of uniformity and repeatability. In the same way that the structural, anatomophysiological and biochemical organization of the neocortex abides by underlying general principles, it is reasonable to conjecture that so does its function. As such, studying the computational properties of realistic models involved in interactive processing contexts may bring further insights to a general understanding of brain function.&lt;/p&gt;
 </description>
     </item>
     

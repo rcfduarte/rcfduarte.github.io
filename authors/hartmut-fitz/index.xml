@@ -6,12 +6,6 @@
       <atom:link href="https://rcfduarte.github.io/authors/hartmut-fitz/index.xml" rel="self" type="application/rss+xml" />
     <description>Hartmut Fitz</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://rcfduarte.github.io/img/icon-192.png</url>
-      <title>Hartmut Fitz</title>
-      <link>https://rcfduarte.github.io/authors/hartmut-fitz/</link>
-    </image>
-    
     <item>
       <title>Encoding symbolic sequences with spiking neural reservoirs</title>
       <link>https://rcfduarte.github.io/publication/ed_2018/</link>

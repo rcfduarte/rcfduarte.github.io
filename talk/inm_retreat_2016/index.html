@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.c3aeeb44e1fcae6d104f3d860971bac3.css">
+  <link rel="stylesheet" href="/css/academic.min.deb8c3034775c3a744211e97b78267a9.css">
 
   
 
@@ -106,10 +106,9 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@Renatocfduarte">
   <meta property="twitter:creator" content="@Renatocfduarte">
@@ -117,13 +116,13 @@
   <meta property="og:site_name" content="Renato Duarte">
   <meta property="og:url" content="https://rcfduarte.github.io/talk/inm_retreat_2016/">
   <meta property="og:title" content="Decision-specific sequences of neural activity in balanced random networks driven by structured sensory input | Renato Duarte">
-  <meta property="og:description" content="Perceptual decision-making is an intricate process implicating the coordinated activity of multiple brain areas. Recent experimental studies demonstrate the existence of a complex interplay between decision-related neural events and transient working memory processes, implemented by distributed circuits where specific sub-populations appear to be differentially involved in the evidence accumulation process and subsequent behavioral outcomes. This results in observable divergences in choice-specific neuronal dynamics, unfolding as reproducible trajectories throughout the network’s state-space and hinting at the dissipative nature of the underlying dynamical system, which executes cognitively relevant processing through transient trajectories. Despite this evidence, the majority of modeling studies addressing reward-modulated decision-making tend to simplify the formalization of environmental representations in the cortex as stable, attractor states corresponding to discrete environmental states. Even models involving transient-based computations often simplify sensory stimuli to a discrete set of inputs transduced as stochastic point processes. These simplifications potentially draw an incomplete picture of neural dynamics and therefore provide limited insights into the true nature of computation in neural circuits. To overcome this issue, we take one step towards realistic in silico experimental settings by using structured virtual environments to obtain rich sensory input to drive model neural systems using the ROS-MUSIC toolchain. It allows us to simulate robotic agents in virtual 3D environments performing a realistic perceptual decision task, which can be directly equated to experimental data. The robotic simulation generates realistic and structured sensory data which is encoded to spiking neural activity using a nonlinear encoding process. The encoded sensory data is then used as input to a balance recurrent neural circuit. In this study, we investigate the emergent dynamical features of neural activity when the agent is navigating a virtual T-maze. We observe decision-specific sequences of neural activity akin to experimental evidence, revealing possible processing strategies employed by the neural substrate. Furthermore, we investigate the role of different adaptation/plasticity mechanisms in shaping the system’s dynamics. In order to equate our results with those of other studies, we attempt to partition the network state-space into discrete activity clusters, which carry relevant information that could potentially be used to drive reinforcement learning algorithms."><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://rcfduarte.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Perceptual decision-making is an intricate process implicating the coordinated activity of multiple brain areas. Recent experimental studies demonstrate the existence of a complex interplay between decision-related neural events and transient working memory processes, implemented by distributed circuits where specific sub-populations appear to be differentially involved in the evidence accumulation process and subsequent behavioral outcomes. This results in observable divergences in choice-specific neuronal dynamics, unfolding as reproducible trajectories throughout the network’s state-space and hinting at the dissipative nature of the underlying dynamical system, which executes cognitively relevant processing through transient trajectories. Despite this evidence, the majority of modeling studies addressing reward-modulated decision-making tend to simplify the formalization of environmental representations in the cortex as stable, attractor states corresponding to discrete environmental states. Even models involving transient-based computations often simplify sensory stimuli to a discrete set of inputs transduced as stochastic point processes. These simplifications potentially draw an incomplete picture of neural dynamics and therefore provide limited insights into the true nature of computation in neural circuits. To overcome this issue, we take one step towards realistic in silico experimental settings by using structured virtual environments to obtain rich sensory input to drive model neural systems using the ROS-MUSIC toolchain. It allows us to simulate robotic agents in virtual 3D environments performing a realistic perceptual decision task, which can be directly equated to experimental data. The robotic simulation generates realistic and structured sensory data which is encoded to spiking neural activity using a nonlinear encoding process. The encoded sensory data is then used as input to a balance recurrent neural circuit. In this study, we investigate the emergent dynamical features of neural activity when the agent is navigating a virtual T-maze. We observe decision-specific sequences of neural activity akin to experimental evidence, revealing possible processing strategies employed by the neural substrate. Furthermore, we investigate the role of different adaptation/plasticity mechanisms in shaping the system’s dynamics. In order to equate our results with those of other studies, we attempt to partition the network state-space into discrete activity clusters, which carry relevant information that could potentially be used to drive reinforcement learning algorithms."><meta property="og:image" content="https://rcfduarte.github.io/talk/inm_retreat_2016/featured.png">
+  <meta property="twitter:image" content="https://rcfduarte.github.io/talk/inm_retreat_2016/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2018-05-05T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-01-01T23:44:48&#43;01:00">
+    <meta property="article:modified_time" content="2020-01-23T18:12:14&#43;01:00">
   
 
   
@@ -160,6 +159,10 @@
     
   },
   
+  
+  "image": [
+    "https://rcfduarte.github.io/talk/inm_retreat_2016/featured.png"
+  ],
   
   "startDate": "2016-10-12T10:00:00Z",
   
@@ -399,18 +402,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
   <h1>Decision-specific sequences of neural activity in balanced random networks driven by structured sensory input</h1>
 
   
 
   
-    
 
 
 
@@ -523,7 +532,36 @@
 
 </div>
 
-    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
@@ -539,6 +577,33 @@
 
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.6084/m9.figshare.11492640.v1" target="_blank" rel="noopener">
+    <i class="fas fa-chalkboard mr-1"></i>
+    Slides
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 525px; max-height: 333px;">
+  <div style="position: relative">
+    <img src="/talk/inm_retreat_2016/featured.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -661,7 +726,7 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://rcfduarte.github.io/">Renato Duarte</a></h5>
-      <h6 class="card-subtitle">Computational Cognitive Neuroscience</h6>
+      <h6 class="card-subtitle">Postdoctoral Researcher in Computational Cognitive Neuroscience</h6>
       
       <ul class="network-icon" aria-hidden="true">
   
@@ -782,23 +847,6 @@
     <li>
       <a href="https://profiles.impactstory.org/u/0000-0001-6099-667X" target="_blank" rel="noopener">
         <i class="ai ai-impactstory"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/" >
-        <i class="fas fa-"></i>
       </a>
     </li>
   
