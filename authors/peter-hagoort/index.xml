@@ -6,6 +6,12 @@
       <atom:link href="https://rcfduarte.github.io/authors/peter-hagoort/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Hagoort</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Peter Hagoort</title>
+      <link>https://rcfduarte.github.io/authors/peter-hagoort/</link>
+    </image>
+    
     <item>
       <title>The best spike filter kernel is a neuron</title>
       <link>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</link>

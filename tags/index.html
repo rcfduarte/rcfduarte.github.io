@@ -81,13 +81,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.deb8c3034775c3a744211e97b78267a9.css">
+  <link rel="stylesheet" href="/css/academic.min.3f2a74ba9e8a187b85a8e37fa688e808.css">
 
   
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-150912235-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -442,7 +478,7 @@
   </div>
   
   <div>
-    <h2><a href="/tags/reservoir-computing/">Reservoir Computing</a></h2>
+    <h2><a href="/tags/reservoir-computing/">Reservoir computing</a></h2>
     <div class="article-style">
       
     </div>

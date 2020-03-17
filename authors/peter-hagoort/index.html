@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Computational Cognitive Neuroscience">
+  <meta name="description" content="Postdoctoral Researcher in Computational Cognitive Neuroscience">
 
   
   <link rel="alternate" hreflang="en-us" href="https://rcfduarte.github.io/authors/peter-hagoort/">
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -81,13 +81,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.c3aeeb44e1fcae6d104f3d860971bac3.css">
+  <link rel="stylesheet" href="/css/academic.min.3f2a74ba9e8a187b85a8e37fa688e808.css">
 
   
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-150912235-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -119,7 +155,7 @@
   <meta property="og:site_name" content="Renato Duarte">
   <meta property="og:url" content="https://rcfduarte.github.io/authors/peter-hagoort/">
   <meta property="og:title" content="Peter Hagoort | Renato Duarte">
-  <meta property="og:description" content="Computational Cognitive Neuroscience"><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
+  <meta property="og:description" content="Postdoctoral Researcher in Computational Cognitive Neuroscience"><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://rcfduarte.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;00:00">

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rcfduarte.github.io/authors/admin/</loc>
-    <lastmod>2020-01-24T18:47:07+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rcfduarte.github.io/publication_types/2/</loc>
     <lastmod>2019-12-08T18:30:01+01:00</lastmod>
   </url>
@@ -44,11 +39,6 @@
   
   <url>
     <loc>https://rcfduarte.github.io/publication_types/</loc>
-    <lastmod>2020-01-24T18:47:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/</loc>
     <lastmod>2020-01-24T18:47:07+01:00</lastmod>
   </url>
   
@@ -493,6 +483,11 @@
   </url>
   
   <url>
+    <loc>https://rcfduarte.github.io/authors/admin/</loc>
+    <lastmod>2020-01-24T18:47:07+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rcfduarte.github.io/contact/</loc>
     <lastmod>2019-10-29T18:26:18+01:00</lastmod>
   </url>
@@ -509,6 +504,11 @@
   <url>
     <loc>https://rcfduarte.github.io/publication/</loc>
     <lastmod>2019-11-02T02:21:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rcfduarte.github.io/</loc>
+    <lastmod>2019-12-08T18:30:01+01:00</lastmod>
   </url>
   
 </urlset>

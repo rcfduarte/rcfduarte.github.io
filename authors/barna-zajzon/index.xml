@@ -6,6 +6,12 @@
       <atom:link href="https://rcfduarte.github.io/authors/barna-zajzon/index.xml" rel="self" type="application/rss+xml" />
     <description>Barna Zajzon</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/img/icon-192.png</url>
+      <title>Barna Zajzon</title>
+      <link>https://rcfduarte.github.io/authors/barna-zajzon/</link>
+    </image>
+    
     <item>
       <title>Passing the message: Representation transfer in modular balanced networks</title>
       <link>https://rcfduarte.github.io/publication/state_transfer_2019/</link>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reservoir Computing | Renato Duarte</title>
+    <title>Reservoir computing | Renato Duarte</title>
     <link>https://rcfduarte.github.io/tags/reservoir-computing/</link>
       <atom:link href="https://rcfduarte.github.io/tags/reservoir-computing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Reservoir Computing</description>
+    <description>Reservoir computing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rcfduarte.github.io/img/icon-192.png</url>
-      <title>Reservoir Computing</title>
+      <title>Reservoir computing</title>
       <link>https://rcfduarte.github.io/tags/reservoir-computing/</link>
     </image>
     

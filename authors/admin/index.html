@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Computational Cognitive Neuroscience">
+  <meta name="description" content="Postdoctoral Researcher in Computational Cognitive Neuroscience">
 
   
   <link rel="alternate" hreflang="en-us" href="https://rcfduarte.github.io/authors/admin/">
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -81,13 +81,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.c3aeeb44e1fcae6d104f3d860971bac3.css">
+  <link rel="stylesheet" href="/css/academic.min.3f2a74ba9e8a187b85a8e37fa688e808.css">
 
   
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-150912235-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -119,10 +155,10 @@
   <meta property="og:site_name" content="Renato Duarte">
   <meta property="og:url" content="https://rcfduarte.github.io/authors/admin/">
   <meta property="og:title" content=" | Renato Duarte">
-  <meta property="og:description" content="Computational Cognitive Neuroscience"><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
+  <meta property="og:description" content="Postdoctoral Researcher in Computational Cognitive Neuroscience"><meta property="og:image" content="https://rcfduarte.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://rcfduarte.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-12-05T00:00:00&#43;00:00">
+    
   
 
   
@@ -372,7 +408,7 @@
 
       <div class="portrait-title">
         <h2>Renato Duarte</h2>
-        <h3>Computational Cognitive Neuroscience</h3>
+        <h3>Postdoctoral Researcher in Computational Cognitive Neuroscience</h3>
 
         
       </div>
@@ -511,23 +547,6 @@
           
         
         <li>
-          <a href="/" >
-            <i class="fas fa- big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
           <a href="https://github.com/rcfduarte" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
           </a>
@@ -593,7 +612,8 @@
     
     
 
-    <p>I am a Postdoctoral researcher working at the intersection of computational neuroscience and cognitive / behavioral sciences.</p>
+    <p>I am a postdoctoral researcher in computational cognitive neuroscience, passionately curious about everything <em>neuro-</em>. I am deeply invested in bridging the gaps between mind and brain and clarifying the biophysical underpinnings of human cognition and behavior, i.e. <em>how the brain computes the mind</em>. I live comfortably with the notion that &ldquo;we are nothing but a pack of neurons”, which I consider to be far from a reductionist view and I firmly believe that a thorough understanding of the underlying processes is critical to clarify the broader questions of <em>who we are</em> and <em>how we work</em>.</p>
+<p>My research focuses on computation in neocortical systems, with a particular focus (and personal interest) on the functional impact of synaptic properties. I argue for an integrative approach where cognitive and biophysical constraints are combined at different levels to shed light on the nature of neural computation. A systematic decomposition of cognitive and behavioral processes into their atomic, algorithmic components is strictly required but, for any such sub-component, the space of models that can possibly account for it is enormous. Constraints on this model space ought to be applied based on neurobiology, i.e. the best way to solve these problems, I argue, is to use the detailed biology of the brain (and its place in the natural world) as a guide and systematically decompose the system into reusable components and operating principles that can be causally linked to relevant computational aspects in the relevant cognitive domains. Ideally, we wish to illustrate such principles in a way that is generalizable given that the design of the system suggests a certain degree of uniformity and repeatability. In the same way that the structural, anatomophysiological and biochemical organization of the neocortex abides by underlying general principles, it is reasonable to conjecture that so does its function. As such, studying the computational properties of realistic models involved in interactive processing contexts may bring further insights to a general understanding of brain function.</p>
 
 
     <div class="row">
@@ -607,11 +627,11 @@
           
           <li>Cognitive Science</li>
           
-          <li>Neurobiology, neurophysiology</li>
+          <li>Neurobiology and Neurophysiology</li>
           
-          <li>Synaptic dynamics</li>
+          <li>Synaptic Biophysics and Dynamics</li>
           
-          <li>Reservoir computing</li>
+          <li>Reservoir Computing</li>
           
         </ul>
       </div>
@@ -626,7 +646,8 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">Dr. rer. Nat. (PhD) in Computational Neuroscience, 2018</p>
-              <p class="institution">Erasmus Mundus joint degree (EuroSPIN program) Albert-Ludwigs-Universität Freiburg and University of Edinburgh</p>
+              <p class="institution">Erasmus Mundus joint degree (EuroSPIN program):
+Albert-Ludwigs-Universität Freiburg and University of Edinburgh</p>
             </div>
           </li>
           
@@ -681,6 +702,10 @@
         </li>
         
         <li>
+          <a href="/talk/ed_poster/">Encoding symbolic sequences with spiking neural reservoirs</a>
+        </li>
+        
+        <li>
           <a href="/publication/ed_2018/">Encoding symbolic sequences with spiking neural reservoirs</a>
         </li>
         
@@ -701,6 +726,18 @@
         </li>
         
         <li>
+          <a href="/talk/het_poster_nccd/">Leveraging heterogeneity for neural computation with fading memory</a>
+        </li>
+        
+        <li>
+          <a href="/talk/het_poster_isn/">Leveraging heterogeneity for neural computation with fading memory</a>
+        </li>
+        
+        <li>
+          <a href="/talk/het_poster_inm_ics2017/">Leveraging complexity and heterogeneity for neural computation with fading memory</a>
+        </li>
+        
+        <li>
           <a href="/publication/coneur_2017/">Synaptic patterning and the timescales of cortical dynamics</a>
         </li>
         
@@ -717,6 +754,10 @@
         </li>
         
         <li>
+          <a href="/talk/ros_music_cns2015/">ROS-MUSIC Toolchain for Spiking Neural Network Simulations in a Robotic Environment</a>
+        </li>
+        
+        <li>
           <a href="/talk/eurospin_2015/">Synaptic adaptation stabilizes sequential stimulus representations</a>
         </li>
         
@@ -729,7 +770,15 @@
         </li>
         
         <li>
+          <a href="/talk/hbp_poster_2014/">Dynamic stimulus representations in adapting neuronal networks</a>
+        </li>
+        
+        <li>
           <a href="/publication/striatum_lsm/">Liquid computing on and off the edge of chaos with a striatal microcircuit</a>
+        </li>
+        
+        <li>
+          <a href="/talk/dondersdiscussions2014/">Temporal sequence learning via adaptation in biologically plausible spiking neural networks</a>
         </li>
         
         <li>
@@ -737,7 +786,15 @@
         </li>
         
         <li>
-          <a href="/talk/agl/">Self-Organized Artificial Grammar Learning in Spiking Neural Networks</a>
+          <a href="/talk/bernsteinconference_2014/">Temporal sequence learning via adaptation in biologically plausible spiking neural networks</a>
+        </li>
+        
+        <li>
+          <a href="/talk/cns2014_poster/">Temporal sequence learning via adaptation in biologically plausible spiking neural networks</a>
+        </li>
+        
+        <li>
+          <a href="/talk/agl_2014/">Self-Organized Artificial Grammar Learning in Spiking Neural Networks</a>
         </li>
         
         <li>
@@ -745,7 +802,15 @@
         </li>
         
         <li>
+          <a href="/talk/cns2013/">Syntax Processing properties of generic cortical circuits</a>
+        </li>
+        
+        <li>
           <a href="/talk/occam2013/">Syntax processing properties of generic cortical circuits</a>
+        </li>
+        
+        <li>
+          <a href="/talk/bccn_freiburg_2013/">Syntax Processing properties of generic cortical circuits</a>
         </li>
         
         <li>
@@ -754,6 +819,10 @@
         
         <li>
           <a href="/publication/msc_thesis/">Self-organized sequence processing in recurrent neural networks with multiple interacting plasticity mechanisms</a>
+        </li>
+        
+        <li>
+          <a href="/talk/msc_thesis_defence/">Self-organized sequence processing in Recurrent Neural Networks with multiple interacting plasticity mechanisms</a>
         </li>
         
       </ul>
