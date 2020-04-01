@@ -90,42 +90,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-150912235-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -391,6 +355,8 @@
   <h2>Latest</h2>
   <ul>
     
+      <li><a href="/publication/weidel_2020/">Unsupervised learning and clustered connectivity enhance reinforcement learning in spiking neural networks</a></li>
+    
       <li><a href="/publication/state_transfer_2019/">Passing the message: Representation transfer in modular balanced networks</a></li>
     
       <li><a href="/talk/shonan/">State-dependent processing in Spiking Neural Networks</a></li>
@@ -408,8 +374,6 @@
       <li><a href="/talk/phd_defence/">State-dependent processing in Spiking Neural Networks</a></li>
     
       <li><a href="/publication/phd_thesis/">State-dependent processing in Spiking Neural Networks</a></li>
-    
-      <li><a href="/publication/spike_filter_kernel_ccn2017/">The best spike filter kernel is a neuron</a></li>
     
   </ul>
   

@@ -90,42 +90,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-150912235-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -598,6 +562,150 @@
 </blockquote>
 
 
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/weidel_2020/" >Unsupervised learning and clustered connectivity enhance reinforcement learning in spiking neural networks</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Reinforcement learning is a learning paradigm that can account for how organisms learn to adapt their behavior in complex environments …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/authors/philipp-weidel/">Philipp Weidel</a></span>, <span><a href="/authors/admin/">Renato Duarte</a></span>, <span><a href="/authors/abigail-morrison/">Abigail Morrison</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1101/2020.03.17.995563" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/10.1101/2020.03.17.995563v1.full" target="_blank" rel="noopener">
+    <i class="ai ai-biorxiv mr-1"></i>
+    Preprint
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/10.1101/2020.03.17.995563v1.full.pdf" target="_blank" rel="noopener">
+    <i class="fa fa-file-pdf mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/10.1101/2020.03.17.995563v1.article-metrics" target="_blank" rel="noopener">
+    <i class="ai ai-impactstory mr-1"></i>
+    Impact
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/weidel_2020/" >
+      <img src="/publication/weidel_2020/featured_huf57887c3d7e692a9d3565dbd3707e1e2_76054_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
     
       
         
