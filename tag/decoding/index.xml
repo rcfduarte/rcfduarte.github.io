@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decoding | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/tag/decoding/</link>
+      <atom:link href="https://rcfduarte.github.io/tag/decoding/index.xml" rel="self" type="application/rss+xml" />
+    <description>Decoding</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Decoding</title>
+      <link>https://rcfduarte.github.io/tag/decoding/</link>
+    </image>
+    
+    <item>
+      <title>The best spike filter kernel is a neuron</title>
+      <link>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

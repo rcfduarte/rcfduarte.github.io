@@ -1,559 +1,363 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://rcfduarte.github.io/publication_types/2/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/abigail-morrison/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/claudia-bachmann/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/dick-van-den-broek/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/ad_paper/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/hartmut-fitz/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/karl-magnus-petersson/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/marvin-uhlmann/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/neuronal_memory_2020/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/peter-hagoort/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication_types/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/tom-tetzlaff/</loc>
-    <lastmod>2020-09-12T16:38:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication_types/3/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/clusters/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/connectivity/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/learning/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/philipp-weidel/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/processing/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/weidel_2020/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/barna-zajzon/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/information-transfer/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/modularity/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/state_transfer_2019/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/sepehr-mahmoudian/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/stimulus-representation/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/shonan/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/fading-memory/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/heterogeneity/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/information-processing/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/heterogeneity_2019/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/neocortex/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication_types/1/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/spiking-neural-networks/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/state-transfer/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/ed_poster/</loc>
-    <lastmod>2020-04-01T16:34:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/balanced-random-networks/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/ed_2018/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/reservoir-computing/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/stimulus-encoding/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/cbmr/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/phd_defence/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication_types/7/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/plasticity/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/recurrent-neural-networks/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/self-organization/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/phd_thesis/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/decoding/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/membrane-potential/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/spike-train-filter/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/stock-flow-duality/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/het_poster_nccd/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/het_poster_isn/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/het_poster_inm_ics2017/</loc>
-    <lastmod>2020-01-24T18:47:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/alexander-seeholzer/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/karl-zilles/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/coneur_2017/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/ias_symposium_2016/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/inm_retreat_2016/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/ros_music/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/mikael-djurfeldt/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/deep-learning/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/demo/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/project/external-project/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/project/internal-project/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/project/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/ros_music_cns2015/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/eurospin_2015/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/expansion/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/jneuro_2015/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/response-variability/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/sensory-cortex/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/state-dependence/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/gso2014/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/hbp_poster_2014/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/carlos-toledo-suarez/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/edge-of-chaos/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/generalization/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/striatum_lsm/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/liquid-state-machine/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/state-representation/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/striatum/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/dondersdiscussions2014/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/asynchronous-irregular-state/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/excitation-inhibition-balance/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/online-computation/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/synaptic-plasticity/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/transient-dynamics/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/bernsteinconference_2014/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/cns2014_poster/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/agl_2014/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/peggy-series/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/agl_2014/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/cns2013/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/occam2013/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/bccn_freiburg_2013/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/eurospin_2013/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/msc_thesis/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/tags/sequence-processing/</loc>
-    <lastmod>2020-06-25T22:10:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/msc_thesis_defence/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/about/</loc>
-    <lastmod>2019-12-08T18:30:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/authors/admin/</loc>
-    <lastmod>2020-01-24T18:47:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/contact/</loc>
-    <lastmod>2019-10-29T18:26:18+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/talk/</loc>
-    <lastmod>2020-01-23T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rcfduarte.github.io/publication/</loc>
-    <lastmod>2019-11-02T02:21:52+01:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://rcfduarte.github.io/talk/example-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/event/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rcfduarte.github.io/</loc>
-    <lastmod>2019-12-08T18:30:01+01:00</lastmod>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/admin/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tags/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication-type/2/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/abigail-morrison/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/claudia-bachmann/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/dick-van-den-broek/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/ad_paper/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/hartmut-fitz/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/karl-magnus-petersson/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/marvin-uhlmann/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/neuronal_memory_2020/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/peter-hagoort/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication_types/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/renato-duarte/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/tom-tetzlaff/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/clusters/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/connectivity/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/learning/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/philipp-weidel/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/processing/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/weidel_2020/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/barna-zajzon/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/information-transfer/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/modularity/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/state_transfer_2019/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/sepehr-mahmoudian/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/stimulus-representation/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/</loc>
+    <lastmod>2019-05-21T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/shonan/</loc>
+    <lastmod>2019-05-21T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/fading-memory/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/heterogeneity/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/information-processing/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/heterogeneity_2019/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/neocortex/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication-type/1/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/spiking-neural-networks/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/state-transfer/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/statetransfer_ijcnn/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/ed_poster/</loc>
+    <lastmod>2018-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/balanced-random-networks/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/ed_2018/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/reservoir-computing/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/stimulus-encoding/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/cbmr/</loc>
+    <lastmod>2018-05-16T12:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/phd_defence/</loc>
+    <lastmod>2018-05-03T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication-type/7/</loc>
+    <lastmod>2017-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/plasticity/</loc>
+    <lastmod>2017-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/recurrent-neural-networks/</loc>
+    <lastmod>2017-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/self-organization/</loc>
+    <lastmod>2017-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/phd_thesis/</loc>
+    <lastmod>2017-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/decoding/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/membrane-potential/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/spike-train-filter/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/stock-flow-duality/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/spike_filter_kernel_ccn2017/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/het_poster_nccd/</loc>
+    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/het_poster_isn/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/het_poster_inm_ics2017/</loc>
+    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/alexander-seeholzer/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/karl-zilles/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/coneur_2017/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/ias_symposium_2016/</loc>
+    <lastmod>2016-12-06T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/inm_retreat_2016/</loc>
+    <lastmod>2016-10-12T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/ros_music/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/mikael-djurfeldt/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/project/example/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/ros_music_cns2015/</loc>
+    <lastmod>2015-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/eurospin_2015/</loc>
+    <lastmod>2015-05-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/expansion/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/jneuro_2015/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/response-variability/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/sensory-cortex/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/state-dependence/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/gso2014/</loc>
+    <lastmod>2014-12-17T15:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/hbp_poster_2014/</loc>
+    <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/carlos-toledo-suarez/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/edge-of-chaos/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/generalization/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/striatum_lsm/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/liquid-state-machine/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/state-representation/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/striatum/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/dondersdiscussions2014/</loc>
+    <lastmod>2014-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/asynchronous-irregular-state/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/excitation-inhibition-balance/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/online-computation/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/synaptic-plasticity/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/transient-dynamics/</loc>
+    <lastmod>2014-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/bernsteinconference_2014/</loc>
+    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/cns2014_poster/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/agl_2014/</loc>
+    <lastmod>2014-07-25T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/authors/peggy-series/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/agl_2014/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/cns2013/</loc>
+    <lastmod>2013-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/occam2013/</loc>
+    <lastmod>2013-05-30T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/bccn_freiburg_2013/</loc>
+    <lastmod>2013-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/eurospin_2013/</loc>
+    <lastmod>2013-01-16T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/publication/msc_thesis/</loc>
+    <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/tag/sequence-processing/</loc>
+    <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/talk/msc_thesis_defence/</loc>
+    <lastmod>2011-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rcfduarte.github.io/about/</loc>
+  </url><url>
+    <loc>https://rcfduarte.github.io/contact/</loc>
   </url>
-  
 </urlset>

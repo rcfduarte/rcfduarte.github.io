@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recurrent Neural Networks | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/tag/recurrent-neural-networks/</link>
+      <atom:link href="https://rcfduarte.github.io/tag/recurrent-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recurrent Neural Networks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recurrent Neural Networks</title>
+      <link>https://rcfduarte.github.io/tag/recurrent-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>State-dependent processing in Spiking Neural Networks</title>
+      <link>https://rcfduarte.github.io/publication/phd_thesis/</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-organized sequence processing in recurrent neural networks with multiple interacting plasticity mechanisms</title>
+      <link>https://rcfduarte.github.io/publication/msc_thesis/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/msc_thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

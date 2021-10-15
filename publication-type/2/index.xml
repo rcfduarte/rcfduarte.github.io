@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Renato Duarte</title>
+    <link>https://rcfduarte.github.io/publication-type/2/</link>
+      <atom:link href="https://rcfduarte.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://rcfduarte.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Firing rate homeostasis counteracts changes in stability of recurrent neural networks caused by synapse loss in Alzheimer&#39;s disease</title>
+      <link>https://rcfduarte.github.io/publication/ad_paper/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/ad_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuronal spike-rate adaptation supports working memory in language processing</title>
+      <link>https://rcfduarte.github.io/publication/neuronal_memory_2020/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/neuronal_memory_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised learning and clustered connectivity enhance reinforcement learning in spiking neural networks</title>
+      <link>https://rcfduarte.github.io/publication/weidel_2020/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/weidel_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Passing the message: Representation transfer in modular balanced networks</title>
+      <link>https://rcfduarte.github.io/publication/state_transfer_2019/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/state_transfer_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</title>
+      <link>https://rcfduarte.github.io/publication/heterogeneity_2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/heterogeneity_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synaptic patterning and the timescales of cortical dynamics</title>
+      <link>https://rcfduarte.github.io/publication/coneur_2017/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/coneur_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closed loop interactions between spiking neural network and robotic simulators based on MUSIC and ROS</title>
+      <link>https://rcfduarte.github.io/publication/ros_music/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/ros_music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expansion and State-Dependent Variability along Sensory Processing Streams</title>
+      <link>https://rcfduarte.github.io/publication/jneuro_2015/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/jneuro_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liquid computing on and off the edge of chaos with a striatal microcircuit</title>
+      <link>https://rcfduarte.github.io/publication/striatum_lsm/</link>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/striatum_lsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic stability of sequential stimulus representations in adapting neuronal networks</title>
+      <link>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</link>
+      <pubDate>Wed, 22 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/dynamicstability_frontiers2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
