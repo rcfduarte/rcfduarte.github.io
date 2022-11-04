@@ -5,12 +5,20 @@
     <link>https://rcfduarte.github.io/authors/dick-van-den-broek/</link>
       <atom:link href="https://rcfduarte.github.io/authors/dick-van-den-broek/index.xml" rel="self" type="application/rss+xml" />
     <description>Dick van den Broek</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Dick van den Broek</title>
       <link>https://rcfduarte.github.io/authors/dick-van-den-broek/</link>
     </image>
+    
+    <item>
+      <title>The Tripod neuron: a minimal structural reduction of the dendritic tree</title>
+      <link>https://rcfduarte.github.io/publication/tripod_2022/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/tripod_2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Neuronal spike-rate adaptation supports working memory in language processing</title>
