@@ -5,7 +5,7 @@
     <link>https://rcfduarte.github.io/publication-type/3/</link>
       <atom:link href="https://rcfduarte.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Signal denoising through topographic modularity of neural circuits</title>
-      <link>https://rcfduarte.github.io/publication/signal_denoising/</link>
-      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://rcfduarte.github.io/publication/signal_denoising/</guid>
+      <title>Towards reproducible models of sequence learning: replication and analysis of a modular spiking network with reward-based learning</title>
+      <link>https://rcfduarte.github.io/publication/cone_shouval/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/cone_shouval/</guid>
       <description></description>
     </item>
     

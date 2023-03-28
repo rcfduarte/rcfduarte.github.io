@@ -5,12 +5,28 @@
     <link>https://rcfduarte.github.io/authors/renato-duarte/</link>
       <atom:link href="https://rcfduarte.github.io/authors/renato-duarte/index.xml" rel="self" type="application/rss+xml" />
     <description>Renato Duarte</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Renato Duarte</title>
       <link>https://rcfduarte.github.io/authors/renato-duarte/</link>
     </image>
+    
+    <item>
+      <title>Signal denoising through topographic modularity of neural circuits</title>
+      <link>https://rcfduarte.github.io/publication/signal_denoising/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/signal_denoising/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards reproducible models of sequence learning: replication and analysis of a modular spiking network with reward-based learning</title>
+      <link>https://rcfduarte.github.io/publication/cone_shouval/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://rcfduarte.github.io/publication/cone_shouval/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Phenomenological modeling of diverse and heterogeneous synaptic dynamics at natural density</title>
@@ -33,14 +49,6 @@
       <link>https://rcfduarte.github.io/publication/tripod_2022/</link>
       <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://rcfduarte.github.io/publication/tripod_2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Signal denoising through topographic modularity of neural circuits</title>
-      <link>https://rcfduarte.github.io/publication/signal_denoising/</link>
-      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://rcfduarte.github.io/publication/signal_denoising/</guid>
       <description></description>
     </item>
     
