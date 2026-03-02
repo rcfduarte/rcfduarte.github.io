@@ -1,3133 +1,652 @@
-<!DOCTYPE html><html lang="en-us" >
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
-  
-
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Assistant Professor of Cognitive Artificial Intelligence" />
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://rcfduarte.github.io/" />
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    <meta name="theme-color" content="#1565c0" />
-  
-
-  
-  
-    
-    <script src="/js/mathjax-config.js"></script>
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
-
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.10aaf58f639db5431da8c125a158f492.css" />
-
-  
-
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150912235-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-150912235-2', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-  
-
-  
-
-
-
-
-  
-  
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
-  
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Renato Duarte" />
-  
-
-  
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
-
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
-
-  <link rel="canonical" href="https://rcfduarte.github.io/" />
-
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary" />
-  
-    <meta property="twitter:site" content="@Renatocfduarte" />
-    <meta property="twitter:creator" content="@Renatocfduarte" />
-  
-  <meta property="og:site_name" content="Renato Duarte" />
-  <meta property="og:url" content="https://rcfduarte.github.io/" />
-  <meta property="og:title" content="Renato Duarte" />
-  <meta property="og:description" content="Assistant Professor of Cognitive Artificial Intelligence" /><meta property="og:image" content="https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://rcfduarte.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-  
-    
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
-    
-  
-
-  
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://rcfduarte.github.io/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://rcfduarte.github.io/"
-}
-</script>
-
-
-  
-
-  
-
-  
-
-
-
-
-
-  <title>Renato Duarte</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Renato Duarte — Computational Neuroscientist & PI</title>
+    <meta name="description" content="Renato Duarte is a computational neuroscientist and Principal Investigator at CNC-UC, University of Coimbra. Research on cortical microcircuits, synaptic plasticity, dynamical systems, and NeuroAI.">
+    <meta name="author" content="Renato Carlos Farinha Duarte">
+    <meta name="keywords" content="computational neuroscience, neural computation, synaptic plasticity, cortical microcircuits, dynamical systems, NeuroAI, spiking neural networks, machine learning, PyTorch, JAX, NEST, biophysical modeling, dendritic computation">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Renato Duarte — Computational Neuroscientist & PI">
+    <meta property="og:description" content="Principal Investigator at CNC-UC, University of Coimbra. Research on cortical microcircuits, synaptic plasticity, dynamical systems, and NeuroAI.">
+    <meta property="og:url" content="https://rcfduarte.github.io/">
+    <meta property="og:site_name" content="Renato Duarte">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Renatocfduarte">
+    <meta name="twitter:title" content="Renato Duarte — Computational Neuroscientist & PI">
+    <meta name="twitter:description" content="Principal Investigator at CNC-UC, University of Coimbra. Research on cortical microcircuits, synaptic plasticity, dynamical systems, and NeuroAI.">
+
+    <link rel="canonical" href="https://rcfduarte.github.io/">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css?v=20260302">
 </head>
-
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
-      
-      
-
-      
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container-xl">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Renato Duarte</a>
-    </div>
-    
-
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Renato Duarte</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/about/"><span>About</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/talk/"><span>Presentations</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/contact/"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/CV.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-      
-      
-        
-      
-
-      
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
-
-      
-      
-
-    </ul>
-
-  </div>
-</nav>
-
-
-  </div>
-
-  <div class="page-body">
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-    
-    
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="slider" class="home-section wg-slider   carousel slide"  data-ride="carousel" data-interval="false">
-   <div class="home-section-bg " >
-     
-   </div>
-    
-
-    
-
-      
-
-
-
-
-<ol class="carousel-indicators">
-  
-  <li data-target="#slider" data-slide-to="0" class="active"></li>
-  
-  <li data-target="#slider" data-slide-to="1" ></li>
-  
-</ol>
-
-
-<div class="carousel-inner">
-  
-
-    
-    
-      
-    
-    
-      
-    
-    
-      
-      
-        
-      
-      
-        
-      
-   
-
-  <div class="wg-hero dark carousel-item active" style=" height: 250px; background-color: #FAFAFA;background-image: url(&#39;https://rcfduarte.github.io/media/headers/raster.png&#39;);filter: brightness(0.9);">
-    <div class="container" style="text-align: left;">
-        <h1 class="hero-title">
-          
-        </h1>
-
-        
-        <p class="hero-lead" style="">
-          <h2 id="span-stylecolorgraywelcomespan"><strong><span style="color:gray">Welcome!</span></strong></h2>
-<p>This profile was created primarily to centralize my digital footprint and organize and share my research output and my interests. You can find more <a href="about/">about me</a> and my academic background and experience and feel free to <a href="publication/">explore</a> and share my research. For any pressing comments or suggestions, you can <a href="contact/">contact me</a> directly.
-        </p>
-        
-
-        
-      </div>
-  </div>
-  
-
-    
-    
-      
-    
-    
-      
-    
-    
-      
-      
-        
-      
-      
-   
-
-  <div class="wg-hero dark carousel-item" style=" height: 250px; background-color: #FAFAFA;background-image: url(&#39;https://rcfduarte.github.io/media/headers/raster.png&#39;);">
-    <div class="container" style="text-align: left;">
-        <h1 class="hero-title">
-          
-        </h1>
-
-        
-        <p class="hero-lead" style="">
-          
-        </p>
-        
-
-        
-      </div>
-  </div>
-  
-</div>
-
-
-<a class="carousel-control-prev" href="#slider" data-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#slider" data-slide="next">
-  <span class="carousel-control-next-icon"></span>
-  <span class="sr-only">Next</span>
-</a>
-
-
-    
-
-    
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="featured_pubs" class="home-section wg-featured light "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Featured Publications</h1>
-            <p class="mt-1"><a href="/publication">See all</a></p>
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/signal_denoising/" >Signal denoising through topographic modularity of neural circuits</a>
-    </div>
-
-    
-    <a href="/publication/signal_denoising/"  class="summary-link">
-      <div class="article-style">
-        Information from the sensory periphery is conveyed to the cortex via structured projection pathways that spatially segregate stimulus …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/barna-zajzon/">Barna Zajzon</a></span>, <span >
-      <a href="/authors/david-dahmenn/">David Dahmenn</a></span>, <span >
-      <a href="/authors/abigail-morrison/">Abigail Morrison</a></span>, <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/signal_denoising/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.7554/eLife.77009" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNzcwMDkvZWxpZmUtNzcwMDktdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzc3MDA5/elife-77009-v2.pdf?_hash=EtxrdRA8Ho%2Bqa0IwahHq%2BZea4LBHZrDK8djZOC%2FzK4E%3D" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.biorxiv.org/content/10.1101/2022.01.10.475681v1.full" target="_blank" rel="noopener">
-    <i class="ai ai-biorxiv mr-1"></i>Preprint</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://zenodo.org/record/6326497" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code & Data</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://elifesciences.org/articles/77009#metrics" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/signal_denoising/" >
-      <img src="/publication/signal_denoising/featured_hu7a8e3497d4b39e837af6dd7f8de4bfb7_124110_150x0_resize_lanczos_3.png" alt="Signal denoising through topographic modularity of neural circuits" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/tripod_2022/" >The Tripod neuron: a minimal structural reduction of the dendritic tree</a>
-    </div>
-
-    
-    <a href="/publication/tripod_2022/"  class="summary-link">
-      <div class="article-style">
-        Neuron models with explicit dendritic dynamics have shed light on mechanisms for coincidence detection, pathway selection and temporal …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/alessio-quaresima/">Alessio Quaresima</a></span>, <span >
-      <a href="/authors/hartmut-fitz/">Hartmut Fitz</a></span>, <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/dick-van-den-broek/">Dick van den Broek</a></span>, <span >
-      <a href="/authors/peter-hagoort/">Peter Hagoort</a></span>, <span >
-      <a href="/authors/karl-magnus-petersson/">Karl Magnus Petersson</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/tripod_2022/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1113/JP283399" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://physoc.onlinelibrary.wiley.com/doi/pdfdirect/10.1113/JP283399?download=true" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.biorxiv.org/content/10.1101/2022.09.05.506197v1" target="_blank" rel="noopener">
-    <i class="ai ai-biorxiv mr-1"></i>Preprint</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/aquaresima/tripod_neuron" target="_blank" rel="noopener">
-    <i class="fa fa-database mr-1"></i>Code & Data</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://wiley.altmetric.com/details/136967151" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/tripod_2022/" >
-      <img src="/publication/tripod_2022/featured_hufad5978899773cbe89b97786253a4475_131852_150x0_resize_q75_lanczos.jpg" alt="The Tripod neuron: a minimal structural reduction of the dendritic tree" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/neuronal_memory_2020/" >Neuronal spike-rate adaptation supports working memory in language processing</a>
-    </div>
-
-    
-    <a href="/publication/neuronal_memory_2020/"  class="summary-link">
-      <div class="article-style">
-        Language processing involves the ability to store and integrate pieces of information in working memory over short periods of time. …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/hartmut-fitz/">Hartmut Fitz</a></span>, <span >
-      <a href="/authors/marvin-uhlmann/">Marvin Uhlmann</a></span>, <span >
-      <a href="/authors/dick-van-den-broek/">Dick van den Broek</a></span>, <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/peter-hagoort/">Peter Hagoort</a></span>, <span >
-      <a href="/authors/karl-magnus-petersson/">Karl Magnus Petersson</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/neuronal_memory_2020/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1073/pnas.2000222117" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.biorxiv.org/content/10.1101/546325v1" target="_blank" rel="noopener">
-    <i class="ai ai-biorxiv mr-1"></i>Preprint</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.biorxiv.org/content/10.1101/546325v1.full.pdf" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/1839/8a42116e-77a7-46e1-b838-beee60e4e11a" target="_blank" rel="noopener">
-    <i class="fa fa-database mr-1"></i>Code & Data</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://pnas.altmetric.com/details/88063660" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/neuronal_memory_2020/" >
-      <img src="/publication/neuronal_memory_2020/featured_hu5c7c423dac94280dec4a2a65949404fb_89216_150x0_resize_lanczos_3.png" alt="Neuronal spike-rate adaptation supports working memory in language processing" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/weidel_2020/" >Unsupervised learning and clustered connectivity enhance reinforcement learning in spiking neural networks</a>
-    </div>
-
-    
-    <a href="/publication/weidel_2020/"  class="summary-link">
-      <div class="article-style">
-        Reinforcement learning is a learning paradigm that can account for how organisms learn to adapt their behavior in complex environments …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/philipp-weidel/">Philipp Weidel</a></span>, <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/abigail-morrison/">Abigail Morrison</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/weidel_2020/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fncom.2021.543872" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.biorxiv.org/content/10.1101/2020.03.17.995563v1.full" target="_blank" rel="noopener">
-    <i class="ai ai-biorxiv mr-1"></i>Preprint</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fncom.2021.543872/pdf" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://fz-juelich.sciebo.de/s/iSAZ7be2prtCCXS" target="_blank" rel="noopener">
-    <i class="fa fa-database mr-1"></i>Code & Data</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://loop-impact.frontiersin.org/impact/article/543872#views" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/weidel_2020/" >
-      <img src="/publication/weidel_2020/featured_huf57887c3d7e692a9d3565dbd3707e1e2_76054_150x0_resize_q75_lanczos.jpg" alt="Unsupervised learning and clustered connectivity enhance reinforcement learning in spiking neural networks" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/heterogeneity_2019/" >Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</a>
-    </div>
-
-    
-    <a href="/publication/heterogeneity_2019/"  class="summary-link">
-      <div class="article-style">
-        Complexity and heterogeneity are intrinsic to neurobiological systems, manifest in every process, at every scale, and are inextricably …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/abigail-morrison/">Abigail Morrison</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/heterogeneity_2019/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1371/journal.pcbi.1006781" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1101/230821" target="_blank" rel="noopener">
-    <i class="ai ai-biorxiv mr-1"></i>Preprint</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006781&amp;type=printable" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1371/journal.pcbi.1006781.s009.tar" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://fz-juelich.sciebo.de/s/cnIILfMGXBX4GFQ" target="_blank" rel="noopener">
-    <i class="fa fa-database mr-1"></i>Data</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://osf.io/eqz7t/" target="_blank" rel="noopener">
-    <i class="ai ai-osf mr-1"></i>Project</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.plos.org/ploscompbiol/article/metrics?id=10.1371/journal.pcbi.1006781" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/heterogeneity_2019/" >
-      <img src="/publication/heterogeneity_2019/featured2_huee60f87aa3f9089fb8db8eec0b1ddbf0_915716_150x0_resize_lanczos_3.png" alt="Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/coneur_2017/" >Synaptic patterning and the timescales of cortical dynamics</a>
-    </div>
-
-    
-    <a href="/publication/coneur_2017/"  class="summary-link">
-      <div class="article-style">
-        Neocortical circuits, as large heterogeneous recurrentnetworks, can potentially operate and process signals atmultiple timescales, but …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/alexander-seeholzer/">Alexander Seeholzer</a></span>, <span >
-      <a href="/authors/karl-zilles/">Karl Zilles</a></span>, <span >
-      <a href="/authors/abigail-morrison/">Abigail Morrison</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/coneur_2017/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.conb.2017.02.007" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0959438817300545/pdfft?md5=a9997d5d955a7760b3dcd6d877f72bdf&amp;pid=1-s2.0-S0959438817300545-main.pdf" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://plu.mx/plum/a/?doi=10.1016/j.conb.2017.02.007&amp;theme=plum-sciencedirect-theme&amp;hideUsage=true" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/coneur_2017/" >
-      <img src="/publication/coneur_2017/featured_hufcc47fb70f40c0778d79d72a76ec59f0_763101_150x0_resize_lanczos_3.png" alt="Synaptic patterning and the timescales of cortical dynamics" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/dynamicstability_frontiers2014/" >Dynamic stability of sequential stimulus representations in adapting neuronal networks</a>
-    </div>
-
-    
-    <a href="/publication/dynamicstability_frontiers2014/"  class="summary-link">
-      <div class="article-style">
-        The ability to acquire and maintain appropriate representations of time-varying, sequential stimulus events is a fundamental feature of …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/renato-duarte/">Renato Duarte</a></span>, <span >
-      <a href="/authors/abigail-morrison/">Abigail Morrison</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/dynamicstability_frontiers2014/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fncom.2014.00124" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fncom.2014.00124/pdf" target="_blank" rel="noopener">
-    <i class="fa fa-file-pdf mr-1"></i>PDF</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://gitlab.com/rcfduarte/dynamicstability.git" target="_blank" rel="noopener">
-    <i class="fab fa-gitlab mr-1"></i>Code</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://loop-impact.frontiersin.org/impact/article/99741#totalviews/views" target="_blank" rel="noopener">
-    <i class="ai ai-impactstory mr-1"></i>Impact</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/dynamicstability_frontiers2014/" >
-      <img src="/publication/dynamicstability_frontiers2014/featured_hud848e9ed18e385330e779561af4b697f_413314_150x0_resize_lanczos_3.png" alt="Dynamic stability of sequential stimulus representations in adapting neuronal networks" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="featured_talks" class="home-section wg-featured light "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Featured Talks</h1>
-            <p class="mt-1"><a href="/talk">See all</a></p>
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/shonan/" >State-dependent processing in Spiking Neural Networks</a>
-    </div>
-
-    
-    <a href="/talk/shonan/"  class="summary-link">
-      <div class="article-style">
-        Several organizational principles of the neocortex appear to imply a strong predisposition to acquire temporal structure in a …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/admin/"></a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 21, 2019
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://slides.com/renatocfduarte/state-dependent-sequence-processing-in-spiking-neural-networks" target="_blank" rel="noopener">
-    <i class="fas fa-chalkboard mr-1"></i>Slides</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/shonan/" >
-      <img src="/talk/shonan/featured_hu2685b59985d6c9c812875f0209bd577c_7226_150x0_resize_lanczos_3.png" alt="State-dependent processing in Spiking Neural Networks" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/ias_symposium_2016/" >Leveraging heterogeneity for neural computation with fading memory</a>
-    </div>
-
-    
-    <a href="/talk/ias_symposium_2016/"  class="summary-link">
-      <div class="article-style">
-        Computational studies addressing the dynamics and computational properties of biologically inspired spiking neurons and networks tend …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/admin/"></a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 6, 2016
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6084/m9.figshare.11492523.v1" target="_blank" rel="noopener">
-    <i class="fas fa-chalkboard mr-1"></i>Slides</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/ias_symposium_2016/" >
-      <img src="/talk/ias_symposium_2016/featured_hu931a5874a4ead23749eb0ff9aec955cd_199049_150x0_resize_q75_lanczos.jpg" alt="Leveraging heterogeneity for neural computation with fading memory" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/eurospin_2015/" >Synaptic adaptation stabilizes sequential stimulus representations</a>
-    </div>
-
-    
-    <a href="/talk/eurospin_2015/"  class="summary-link">
-      <div class="article-style">
-        In this work, we study the properties of biologically realistic networks of LIF neurons, with differentially modulated, dynamic …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/admin/"></a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 23, 2015
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6084/m9.figshare.11492676.v1" target="_blank" rel="noopener">
-    <i class="fas fa-chalkboard mr-1"></i>Slides</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/eurospin_2015/" >
-      <img src="/talk/eurospin_2015/featured_huc9c6fd5f72dae15882137dbeb534fb78_1198791_150x0_resize_lanczos_3.png" alt="Synaptic adaptation stabilizes sequential stimulus representations" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/agl_2014/" >Self-Organized Artificial Grammar Learning in Spiking Neural Networks</a>
-    </div>
-
-    
-    <a href="/talk/agl_2014/"  class="summary-link">
-      <div class="article-style">
-        Artificial Grammar Learning (AGL) paradigms study the nature of syntactic processing and implicit sequence learning. Humans acquire …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/admin/"></a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 25, 2014
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6084/m9.figshare.3496733.v1" target="_blank" rel="noopener">
-    <i class="fas fa-chalkboard mr-1"></i>Slides</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/agl_2014/" >
-      <img src="/talk/agl_2014/featured_hu60b9f6775afdb500da5de4f41cf5e384_406667_150x0_resize_lanczos_3.png" alt="Self-Organized Artificial Grammar Learning in Spiking Neural Networks" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/eurospin_2013/" >Processing structured symbolic sequences with Recurrent Neural Networks</a>
-    </div>
-
-    
-    <a href="/talk/eurospin_2013/"  class="summary-link">
-      <div class="article-style">
-        The ability to encode, process and represent structured sequences of perceptual information as well as the ability to finely sequence …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/admin/"></a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jan 16, 2013
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6084/m9.figshare.11492835.v1" target="_blank" rel="noopener">
-    <i class="fas fa-chalkboard mr-1"></i>Slides</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/eurospin_2013/" >
-      <img src="/talk/eurospin_2013/featured_hu8e29c20b3ca624f6c9b6ab37b5eb4c04_86455_150x0_resize_q75_lanczos.jpg" alt="Processing structured symbolic sequences with Recurrent Neural Networks" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-
-
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
-    </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-
-    
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
-
-    
-    
-    
-      
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      
-
-      
-      
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/py.min.js" crossorigin="anonymous"></script>
-        
-      
-
-    
-
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-name">Renato Duarte</a>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#software">Software</a>
+                <a href="#teaching">Teaching</a>
+                <a href="#publications">Publications</a>
+                <a href="#links">Links</a>
             </div>
-          </div>
         </div>
-      </script>
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-      
-    
+    </nav>
 
-    
-    
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Renato Duarte</h1>
+                    <p class="hero-role">Computational Neuroscience &amp; NeuroAI</p>
+                    <p class="hero-affiliation">
+                        <a href="https://comp-neuro.org">CNNC Lab</a> &middot;
+                        Center for Neuroscience and Cell Biology &middot;
+                        University of Coimbra
+                    </p>
+                    <div class="hero-links">
+                        <a href="https://scholar.google.de/citations?user=NeD4kokAAAAJ&hl=en" class="hero-link" title="Google Scholar">
+                            <svg width="20" height="20" viewBox="0 0 512 512" fill="currentColor"><path d="M390.9 298.5c0 0 0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg>
+                            Scholar
+                        </a>
+                        <a href="https://github.com/rcfduarte" class="hero-link" title="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/renatocfduarte/" class="hero-link" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://orcid.org/0000-0001-6099-667X" class="hero-link" title="ORCID">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-1.847-1.303-3.722-3.956-3.722h-2.363z"/></svg>
+                            ORCID
+                        </a>
+                        <a href="mailto:renato.duarte@cnc.uc.pt" class="hero-link" title="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <img src="img/profile.jpg" alt="Renato Duarte" class="profile-photo" width="160" height="160">
+                </div>
+            </div>
+        </div>
+    </header>
 
-    
-    
-    
-    
+    <main>
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I study <em>how the brain computes the mind</em>. My research combines mathematical modeling, biophysics, and dynamical systems theory to build mechanistic models of cortical circuits&mdash;from molecular and synaptic processes through dendritic integration and network dynamics to cognitive function. I argue for an integrative approach where biological constraints at every level guide computational models, establishing causal links between biophysical mechanisms and neural computation. I lead the <a href="https://comp-neuro.org">Computational Neuroscience &amp; Neural Computation</a> group at the Center for Neuroscience and Cell Biology, University of Coimbra.</p>
 
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
+                        <p>I design and implement large-scale spiking neural network simulations, develop custom analysis and benchmarking tools, and build research software for the computational neuroscience community. I work daily with Python, PyTorch, JAX, and the NEST simulator, and have led computing projects on high-performance infrastructure at the J&uuml;lich Supercomputing Centre and, more recently, at the <a href="https://rnca.fccn.pt/en/incd/">Portuguese National Advanced Computing Infrastructure</a>. My technical work spans biophysical modeling, machine learning and AI, dynamical systems analysis, and scientific software engineering.</p>
 
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+                        <p>Before establishing my group in Coimbra, I held a tenured Assistant Professorship in Cognitive Artificial Intelligence at Radboud University, worked as a postdoctoral fellow at the Forschungszentrum J&uuml;lich, and completed a joint PhD across the University of Freiburg and the University of Edinburgh through the Erasmus Mundus EuroSPIN programme (summa cum laude). I write about neuroscience and AI-augmented research at <a href="https://groundedneuro.substack.com">Grounded Neuro</a>.</p>
+                    </div>
+                    <aside class="about-sidebar">
+                        <div class="sidebar-item">
+                            <span class="sidebar-label">h-index</span>
+                            <span class="sidebar-value">11</span>
+                        </div>
+                        <div class="sidebar-item">
+                            <span class="sidebar-label">i10-index</span>
+                            <span class="sidebar-value">12</span>
+                        </div>
+                        <div class="sidebar-item">
+                            <span class="sidebar-label">Citations</span>
+                            <span class="sidebar-value">365</span>
+                        </div>
+                        <div class="sidebar-item">
+                            <span class="sidebar-label">Papers</span>
+                            <span class="sidebar-value">25+</span>
+                        </div>
+                        <div class="sidebar-item">
+                            <span class="sidebar-label">Years active</span>
+                            <span class="sidebar-value">12+</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
 
-    
+        <!-- Research -->
+        <section id="research" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Research</h2>
+                <p class="section-subtitle">My research programme bridges cognition and biophysics through computational modeling, unified by dynamical systems theory and a commitment to biological plausibility.</p>
 
+                <div class="research-lines">
+                    <div class="research-line">
+                        <h3>Sequential Computation &amp; Cognition</h3>
+                        <p>How do cortical circuits acquire, represent, and generalize sequential rules? I investigate the neural substrates of temporal structure processing, working memory, and compositional generalization&mdash;from sensorimotor coordination to language. This line uses spiking neural networks, reservoir computing, and formal language tasks to study domain-general cortical computation.</p>
+                        <div class="research-tags">
+                            <span>Sequential Rule Learning</span>
+                            <span>Working Memory</span>
+                            <span>Compositionality</span>
+                            <span>Temporal Integration</span>
+                            <span>Spiking Neural Networks</span>
+                        </div>
+                    </div>
 
+                    <div class="research-line">
+                        <h3>Biophysical Mechanisms &amp; Microcircuits</h3>
+                        <p>Learning emerges from coupled electrochemical processes spanning multiple spatial and temporal scales. I build models of heterosynaptic plasticity, dendritic nonlinearities, and canonical cortical microcircuits&mdash;grounded in molecular biology and electrophysiology&mdash;to explain how local synaptic and cellular mechanisms give rise to circuit-level computation and adaptive behavior.</p>
+                        <div class="research-tags">
+                            <span>Heterosynaptic Plasticity</span>
+                            <span>Dendritic Computation</span>
+                            <span>Cortical Microcircuits</span>
+                            <span>E/I Balance</span>
+                            <span>Chemoarchitecture</span>
+                        </div>
+                    </div>
 
+                    <div class="research-line">
+                        <h3>Dynamical Systems &amp; NeuroAI</h3>
+                        <p>Transient dynamics, metastability, and attractor landscapes are the computational primitives of recurrent neural circuits. I use dynamical systems analysis, reservoir computing theory, and biologically-constrained machine learning to characterize neural computation and to build brain-inspired AI architectures&mdash;bridging neuroscience and modern deep learning.</p>
+                        <div class="research-tags">
+                            <span>Dynamical Systems</span>
+                            <span>Transient Dynamics</span>
+                            <span>Reservoir Computing</span>
+                            <span>Biophysical Digital Twins</span>
+                            <span>Neuromorphic Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Experience / Career Timeline -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Career</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 &ndash; present</span>
+                            <h3>Principal Investigator &amp; Assistant Researcher</h3>
+                            <p class="timeline-org">Center for Neuroscience and Cell Biology (CNC-UC), University of Coimbra</p>
+                            <p class="timeline-detail">Leading the Computational Neuroscience &amp; Neural Computation group. PI on FCT-funded research on heterosynaptic plasticity and compartmentalized learning.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 &ndash; 2023</span>
+                            <h3>Assistant Professor of Cognitive AI <span class="tenure-badge">tenured</span></h3>
+                            <p class="timeline-org">Department of Artificial Intelligence, Radboud University, Nijmegen</p>
+                            <p class="timeline-detail">Designed and taught Neural Computation (MSc) and Reinforcement Learning (BSc, 250+ students). Tenure awarded 1.5 years ahead of schedule. Educational Innovation Award.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2018 &ndash; 2021</span>
+                            <h3>Postdoctoral Researcher</h3>
+                            <p class="timeline-org">Institute of Neuroscience and Medicine (INM-6), Forschungszentrum J&uuml;lich</p>
+                            <p class="timeline-detail">Led research projects on functional neural architectures and synaptic dynamics. JARA-HPC computing allocation (50M+ core-hours). Guest Researcher at the Max Planck Institute for Psycholinguistics.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2011 &ndash; 2018</span>
+                            <h3>Doctoral Researcher <span class="tenure-badge">summa cum laude</span></h3>
+                            <p class="timeline-org">Erasmus Mundus EuroSPIN &mdash; Albert-Ludwigs-Universit&auml;t Freiburg &amp; University of Edinburgh</p>
+                            <p class="timeline-detail">Joint PhD programme across Freiburg, Edinburgh, Bochum, and J&uuml;lich. Thesis: &ldquo;State-dependent processing in Spiking Neural Networks.&rdquo;</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2009 &ndash; 2011</span>
+                            <h3>MSc Cognitive Neuroscience &amp; BSc Pharmaceutical Sciences</h3>
+                            <p class="timeline-org">University of Algarve (MSc, Distinction) &middot; University of Coimbra (BSc)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Simulation &amp; Biophysical Modeling</h3>
+                        <div class="skill-tags">
+                            <span>NEST</span><span>Arbor</span><span>Brian2</span><span>Spiking Networks</span><span>Multi-compartment Models</span><span>Conductance-based Synapses</span><span>Mean-field Models</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Machine Learning &amp; NeuroAI</h3>
+                        <div class="skill-tags">
+                            <span>PyTorch</span><span>JAX</span><span>TensorFlow</span><span>scikit-learn</span><span>Deep Learning</span><span>RNNs</span><span>Reinforcement Learning</span><span>Neural ODEs</span><span>Brain-inspired Computing</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Scientific Computing &amp; HPC</h3>
+                        <div class="skill-tags">
+                            <span>Python</span><span>C++</span><span>NumPy</span><span>SciPy</span><span>SLURM</span><span>OpenMP</span><span>MPI</span><span>HPC Clusters</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Dynamical Systems &amp; Theory</h3>
+                        <div class="skill-tags">
+                            <span>State-space Analysis</span><span>Attractor Dynamics</span><span>Metastability</span><span>Reservoir Computing</span><span>Bifurcation Analysis</span><span>Lyapunov Exponents</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Data Analysis &amp; Signal Processing</h3>
+                        <div class="skill-tags">
+                            <span>Electrophysiology</span><span>Population Dynamics</span><span>Statistical Modeling</span><span>Manifold Learning</span><span>MEA Analysis</span><span>Basic Multi-Omics Analysis</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Software Engineering</h3>
+                        <div class="skill-tags">
+                            <span>Git</span><span>CI/CD</span><span>VS Code Extensions</span><span>Docker</span><span>Open Source</span><span>Reproducible Research</span><span>FAIR Principles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Software / Open Source -->
+        <section id="software" class="section">
+            <div class="container">
+                <h2 class="section-title">Open Source Software</h2>
+                <p class="section-subtitle">Research tools and contributions to community infrastructure.</p>
+                <div class="software-grid">
+                    <div class="software-item">
+                        <div class="software-header">
+                            <h3><a href="https://github.com/rcfduarte/func-neurarch">FNA</a></h3>
+                            <span class="software-status status-active">active</span>
+                        </div>
+                        <p class="software-desc">Functional Neural Architectures &mdash; a Python framework for benchmarking neural circuits across abstraction levels, from rate networks to biophysically detailed spiking models.</p>
+                        <div class="software-meta">
+                            <a href="https://github.com/rcfduarte/func-neurarch">github.com/rcfduarte/func-neurarch</a> &middot; <a href="https://doi.org/10.5281/zenodo.3375620">zenodo</a>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-header">
+                            <h3><a href="https://github.com/rcfduarte/nmsat">NMSAT</a></h3>
+                            <span class="software-status status-archive">archived</span>
+                        </div>
+                        <p class="software-desc">Neural Microcircuit Simulation and Analysis Toolkit &mdash; a high-level wrapper for reproducible simulation and analysis of spiking neural microcircuits at scale.</p>
+                        <div class="software-meta">
+                            <a href="https://github.com/rcfduarte/nmsat">github.com/rcfduarte/nmsat</a> &middot; <a href="https://doi.org/10.5281/zenodo.594850">zenodo</a>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-header">
+                            <h3><a href="https://github.com/CNNC-Lab/mea-flow">MEA-Flow</a></h3>
+                            <span class="software-status status-active">active</span>
+                        </div>
+                        <p class="software-desc">A Python library for multi-electrode array data analysis with a focus on neural population dynamics, manifold learning, and latent state-space analysis.</p>
+                        <div class="software-meta">
+                            <a href="https://github.com/CNNC-Lab/mea-flow">github.com/CNNC-Lab/mea-flow</a> &middot; <a href="https://doi.org/10.5281/zenodo.18101938">zenodo</a>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-header">
+                            <h3><a href="https://github.com/nest/nest-simulator">NEST Simulator</a></h3>
+                            <span class="software-status status-active">contributor</span>
+                        </div>
+                        <p class="software-desc">Core contributions to the NEST simulator ecosystem, including neuron and synapse model implementations, and co-authorship of NESTML code generation tools.</p>
+                        <div class="software-meta">
+                            <a href="https://github.com/nest/nest-simulator">nest-simulator.org</a> &middot; <a href="https://github.com/nest/nestml">NESTML</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="software-more">More projects at <a href="https://github.com/rcfduarte">github.com/rcfduarte</a> and <a href="https://github.com/CNNC-Lab">github.com/CNNC-Lab</a>.</p>
+            </div>
+        </section>
+
+        <!-- Teaching -->
+        <section id="teaching" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Teaching</h2>
+                <div class="teaching-grid">
+                    <div class="teaching-group">
+                        <h3>Course Design &amp; Coordination</h3>
+                        <div class="teaching-items">
+                            <div class="teaching-item">
+                                <span class="teaching-course">Neural Computation</span>
+                                <span class="teaching-meta">MSc AI, Radboud University &middot; 2021&ndash;2023</span>
+                                <span class="teaching-highlight">9.5/10 student evaluations</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Reinforcement Learning</span>
+                                <span class="teaching-meta">BSc AI, Radboud University &middot; 2021&ndash;2023</span>
+                                <span class="teaching-highlight">250+ students &middot; Educational Innovation Award</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course"><a href="https://github.com/CNNC-Lab/intscipro-2025">Scientific Programming</a></span>
+                                <span class="teaching-meta">PhD programme (idpIN), CNC-UC, University of Coimbra &middot; 2025&ndash;2026</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Systems &amp; Computational Neuroscience</span>
+                                <span class="teaching-meta">Advanced block course (idpIN/PDBEB), CNC-UC &middot; 2026</span>
+                                <span class="teaching-highlight">5-day intensive with international guest lecturers</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Introduction to Scientific Programming with Python</span>
+                                <span class="teaching-meta">BSc Psychology, Ruhr-Universit&auml;t Bochum &middot; 2013&ndash;2017</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teaching-group">
+                        <h3>Guest Lectures &amp; Schools</h3>
+                        <div class="teaching-items">
+                            <div class="teaching-item">
+                                <span class="teaching-course">Synapse Assembly, Function and Plasticity</span>
+                                <span class="teaching-meta">PDBEB+idpIN doctoral programme, CNC-UC &middot; 2024&ndash;2026</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Neuronal Circuits &amp; Behavior</span>
+                                <span class="teaching-meta">PDBEB doctoral programme, CNC-UC &middot; 2024&ndash;2026</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Spring/Fall School in Computational Neuroscience</span>
+                                <span class="teaching-meta">EITN, Paris &middot; 2019&ndash;2021</span>
+                            </div>
+                            <div class="teaching-item">
+                                <span class="teaching-course">Summer School in Computational Biology</span>
+                                <span class="teaching-meta">University of Coimbra &middot; 2024&ndash;2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2 class="section-title">Selected Publications</h2>
+                <p class="section-subtitle">
+                    For the full list and live citation metrics, see <a href="https://scholar.google.de/citations?user=NeD4kokAAAAJ&hl=en">Google Scholar</a>.
+                </p>
+
+                <div class="pub-list">
+                    <article class="pub-item">
+                        <span class="pub-year">2025</span>
+                        <div class="pub-body">
+                            <p class="pub-title">SymSeqBench: a unified framework for the generation and analysis of rule-based symbolic sequences and datasets</p>
+                            <p class="pub-meta">Zajzon, B., Bouhadjar, Y., Fabre, M., Schmidt, F., Ostendorf, N., Neftci, E., Morrison, A., &amp; <strong>Duarte, R</strong></p>
+                            <p class="pub-venue"><em>arXiv</em> &middot; <a href="https://doi.org/10.48550/arXiv.2512.24977">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2025</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Nonlinear dendritic integration supports Up-Down states in single neurons</p>
+                            <p class="pub-meta">Quaresima, A., Fitz, H., Hagoort, P., &amp; <strong>Duarte, R</strong></p>
+                            <p class="pub-venue"><em>The Journal of Neuroscience</em> &middot; <a href="https://doi.org/10.1523/JNEUROSCI.1701-24.2025">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2024</span>
+                        <div class="pub-body">
+                            <p class="pub-title">A layered microcircuit model of Somatosensory cortex with three interneuron types and cell-type-specific short-term plasticity</p>
+                            <p class="pub-meta">Jiang, H.-J., Qi, G., <strong>Duarte, R.</strong>, Feldmeyer, D., &amp; van Albada, S. J</p>
+                            <p class="pub-venue"><em>Cerebral Cortex</em> &middot; <a href="https://doi.org/10.1093/cercor/bhae378">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2024</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Phenomenological modeling of diverse and heterogeneous synaptic dynamics at natural density</p>
+                            <p class="pub-meta">Korcsak-Gorzo, A., Linssen, C., Albers, J., Dasbach, S., <strong>Duarte, R.</strong>, Kunkel, S., Morrison, A., Senk, J., Stapmanns, J., Tetzlaff, T., Diesmann, M., &amp; van Albada, S. J</p>
+                            <p class="pub-venue"><em>New Aspects in Analyzing the Synaptic Organization of the Brain</em> &middot; <a href="https://doi.org/10.1007/978-1-0716-4019-7_15">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2023</span>
+                        <div class="pub-body">
+                            <p class="pub-title">A refined information processing capacity metric allows an in-depth analysis of memory and nonlinearity trade-offs in neurocomputational systems</p>
+                            <p class="pub-meta">Schulte to Brinke, T., Dick, M., <strong>Duarte, R.</strong>, &amp; Morrison, A</p>
+                            <p class="pub-venue"><em>Scientific Reports</em> &middot; <a href="https://doi.org/10.1038/s41598-023-37604-0">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2023</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Signal denoising through topographic modularity of neural circuits</p>
+                            <p class="pub-meta">Zajzon, B., Dahmen, D., Morrison, A., &amp; <strong>Duarte, R</strong></p>
+                            <p class="pub-venue"><em>eLife</em> &middot; <a href="https://doi.org/10.7554/eLife.77009">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2023</span>
+                        <div class="pub-body">
+                            <p class="pub-title">The Tripod neuron: a minimal structural reduction of the dendritic tree</p>
+                            <p class="pub-meta">Quaresima, A., Fitz, H., <strong>Duarte, R.</strong>, Broek, D. van den, Hagoort, P., &amp; Petersson, K. M</p>
+                            <p class="pub-venue"><em>The Journal of Physiology</em> &middot; <a href="https://doi.org/10.1113/JP283399">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2021</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Unsupervised learning and clustered connectivity enhance reinforcement learning in Spiking Neural Networks</p>
+                            <p class="pub-meta">Weidel, P., <strong>Duarte, R.</strong>, &amp; Morrison, A</p>
+                            <p class="pub-venue"><em>Frontiers in Computational Neuroscience</em> &middot; <a href="https://doi.org/10.3389/fncom.2021.543872">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2020</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Neuronal spike-rate adaptation supports working memory in language processing</p>
+                            <p class="pub-meta">Fitz, H., Uhlmann, M., Van Den Broek, D., <strong>Duarte, R.</strong>, Hagoort, P., &amp; Petersson, K. M</p>
+                            <p class="pub-venue"><em>Proceedings of the National Academy of Sciences (PNAS)</em> &middot; <a href="https://doi.org/10.1073/pnas.2000222117">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2019</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</p>
+                            <p class="pub-meta"><strong>Duarte, R.</strong>, &amp; Morrison, A</p>
+                            <p class="pub-venue"><em>PLoS Computational Biology</em> &middot; <a href="https://doi.org/10.1371/journal.pcbi.1006781">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2017</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Synaptic patterning and the timescales of cortical dynamics</p>
+                            <p class="pub-meta"><strong>Duarte, R.</strong>, Seeholzer, A., Zilles, K., &amp; Morrison, A</p>
+                            <p class="pub-venue"><em>Current Opinion in Neurobiology</em> &middot; <a href="https://doi.org/10.1016/j.conb.2017.02.007">doi</a></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <span class="pub-year">2014</span>
+                        <div class="pub-body">
+                            <p class="pub-title">Dynamic stability of sequential stimulus representations in adapting neuronal networks</p>
+                            <p class="pub-meta"><strong>Duarte, R. C. F.</strong>, &amp; Morrison, A</p>
+                            <p class="pub-venue"><em>Frontiers in Computational Neuroscience</em> &middot; <a href="https://doi.org/10.3389/fncom.2014.00124">doi</a></p>
+                        </div>
+                    </article>
+                </div>
+
+                <details class="all-pubs">
+                    <summary class="all-pubs-toggle">All Publications (25)</summary>
+                    <ol class="all-pubs-list" reversed>
+<!-- PUBS_START -->
+                        <li class="all-pubs-entry">
+                            Zajzon, B., Bouhadjar, Y., Fabre, M., Schmidt, F., Ostendorf, N., Neftci, E., Morrison, A., &amp; Duarte, R. (2025). SymSeqBench: A unified framework for the generation and analysis of rule-based symbolic sequences and datasets (No. arXiv:2512.24977; Version 1). arXiv. https://doi.org/10.48550/arXiv.2512.24977
+ <a href="https://doi.org/10.48550/arXiv.2512.24977">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Quaresima, A., Fitz, H., Hagoort, P., &amp; Duarte, R. (2025). Nonlinear dendritic integration supports up-down states in single neurons. Journal of Neuroscience. https://doi.org/10.1523/JNEUROSCI.1701-24.2025 <a href="https://doi.org/10.1523/JNEUROSCI.1701-24.2025">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Jiang, H.-J., Qi, G., Duarte, R., Feldmeyer, D., &amp; van Albada, S. J. (2024). A layered microcircuit model of somatosensory cortex with three interneuron types and cell-type-specific short-term plasticity. Cerebral Cortex, 34(9), bhae378. https://doi.org/10.1093/cercor/bhae378 <a href="https://doi.org/10.1093/cercor/bhae378">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Korcsak-Gorzo, A., Linssen, C., Albers, J., Dasbach, S., Duarte, R., Kunkel, S., Morrison, A., Senk, J., Stapmanns, J., Tetzlaff, T., Diesmann, M., &amp; van Albada, S. J. (2024). Phenomenological modeling of diverse and heterogeneous synaptic dynamics at natural density. In J. H. R. Lübke &amp; A. Rollenhagen (Eds.), New Aspects in Analyzing the Synaptic Organization of the Brain (pp. 277–321). Springer US. https://doi.org/10.1007/978-1-0716-4019-7_15 <a href="https://doi.org/10.1007/978-1-0716-4019-7_15">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Schulte to Brinke, T., Dick, M., Duarte, R., &amp; Morrison, A. (2023). A refined information processing capacity metric allows an in-depth analysis of memory and nonlinearity trade-offs in neurocomputational systems. Scientific Reports, 13, 10517. https://doi.org/10.1038/s41598-023-37604-0 <a href="https://doi.org/10.1038/s41598-023-37604-0">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Zajzon, B., Duarte, R., &amp; Morrison, A. (2023). Toward reproducible models of sequence learning: Replication and analysis of a modular spiking network with reward-based learning. Frontiers in Integrative Neuroscience, 17. https://doi.org/10.3389/fnint.2023.935177 <a href="https://doi.org/10.3389/fnint.2023.935177">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Zajzon, B., Dahmen, D., Morrison, A., &amp; Duarte, R. (2023). Signal denoising through topographic modularity of neural circuits. eLife, 12, e77009. https://doi.org/10.7554/eLife.77009 <a href="https://doi.org/10.7554/eLife.77009">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Schulte to Brinke, T., Duarte, R., &amp; Morrison, A. (2022). Characteristic columnar connectivity caters to cortical computation: Replication, simulation, and evaluation of a microcircuit model. Frontiers in Integrative Neuroscience, 16. https://doi.org/10.3389/fnint.2022.923468 <a href="https://doi.org/10.3389/fnint.2022.923468">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Quaresima, A., Fitz, H., Duarte, R., Broek, D. van den, Hagoort, P., &amp; Petersson, K. M. (2023). The Tripod neuron: A minimal structural reduction of the dendritic tree. The Journal of Physiology, 601(15), 3265–3295. https://doi.org/10.1113/JP283399 <a href="https://doi.org/10.1113/JP283399">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Weidel, P., Duarte, R., &amp; Morrison, A. (2021). Unsupervised Learning and Clustered Connectivity Enhance Reinforcement Learning in Spiking Neural Networks. Frontiers in Computational Neuroscience, 15. https://doi.org/10.3389/fncom.2021.543872 <a href="https://doi.org/10.3389/fncom.2021.543872">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Fitz, H., Uhlmann, M., Van Den Broek, D., Duarte, R., Hagoort, P., &amp; Petersson, K. M. (2020). Neuronal spike-rate adaptation supports working memory in language processing. Proceedings of the National Academy of Sciences of the United States of America, 117(34), 20881–20889. https://doi.org/10.1073/pnas.2000222117
+ <a href="https://doi.org/10.1073/pnas.2000222117">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Zajzon, B., Duarte, R., Mahmoudian, S., Morrison, A., &amp; Duarte, R. (2019). Passing the Message: Representation Transfer in Modular Balanced Networks. Frontiers in Computational Neuroscience, 13(December), 79. https://doi.org/10.3389/fncom.2019.00079 <a href="https://doi.org/10.3389/fncom.2019.00079">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Bachmann, C., Tetzlaff, T., Duarte, R., &amp; Morrison, A. (2020). Firing rate homeostasis counteracts changes in stability of recurrent neural networks caused by synapse loss in Alzheimer’s disease. PLOS Computational Biology, 16(8), e1007790. https://doi.org/10.1371/journal.pcbi.1007790 <a href="https://doi.org/10.1371/journal.pcbi.1007790">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R., &amp; Morrison, A. (2019). Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits. PLOS Computational Biology, 15(4), e1006781. https://doi.org/10.1371/journal.pcbi.1006781
+ <a href="https://doi.org/10.1371/journal.pcbi.1006781">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R., Uhlmann, M., van den Broeck, D., Fitz, H., Petersson, K. M., &amp; Morrison, A. (2018). Encoding symbolic sequences with spiking neural reservoirs. Proceedings of the International Joint Conference on Neural Networks, 2018-July, 1–8. https://doi.org/10.1109/IJCNN.2018.8489114 <a href="https://doi.org/10.1109/IJCNN.2018.848911">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Zajzon, B., Duarte, R., &amp; Morrison, A. (2018). Transferring State Representations in Hierarchical Spiking Neural Networks. Proceedings of the International Joint Conference on Neural Networks, 2018-July, 1–9. https://doi.org/10.1109/IJCNN.2018.8489135 <a href="https://doi.org/10.1109/IJCNN.2018.8489135">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R. (2018). State-dependent processing with Spiking Neural Networks [Doctoral dissertation]. Albert-Ludvigs Universitat Freiburg. <a href="http://hdl.handle.net/2128/19337">http://hdl.handle.net/2128/19337</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            The best spike filter kernel is a neuron <a href="https://ccneuro.org/2017/abstracts/abstract_3000204.pdf">https://ccneuro.org/2017/abstracts/abstract_3000204.pdf</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R., Seeholzer, A., Zilles, K., &amp; Morrison, A. (2017). Synaptic patterning and the timescales of cortical dynamics. Current Opinion in Neurobiology, 43, 156–165. https://doi.org/10.1016/j.conb.2017.02.007
+ <a href="https://doi.org/10.1016/j.conb.2017.02.007">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Weidel, P., Djurfeldt, M., Duarte, R., &amp; Morrison, A. (2016). Closed loop interactions between spiking neural network and robotic simulators based on MUSIC and ROS. Frontiers in Neuroinformatics, 10(31), 1–19. https://doi.org/10.3389/fninf.2016.00031
+ <a href="https://doi.org/10.3389/fninf.2016.00031">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R. (2015). Expansion and State-Dependent Variability along Sensory Processing Streams. The Journal of Neuroscience, 35(19), 7315–7316. https://doi.org/10.1523/JNEUROSCI.0874-15.2015 <a href="https://doi.org/10.1523/JNEUROSCI.0874-15.2015">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Toledo-Suárez, C., Duarte, R., &amp; Morrison, A. (2014). Liquid computing on and off the edge of chaos with a striatal microcircuit. Frontiers in Computational Neuroscience, 8(November), 130. https://doi.org/10.3389/fncom.2014.00130 <a href="https://doi.org/10.3389/fncom.2014.00130">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R. C. F., &amp; Morrison, A. (2014). Dynamic stability of sequential stimulus representations in adapting neuronal networks. Frontiers in Computational Neuroscience, 8(October), 124. https://doi.org/10.3389/fncom.2014.00124 <a href="https://doi.org/10.3389/fncom.2014.00124">doi</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R., Seriès, P., &amp; Morrison, A. (2014). Self-Organized Artificial Grammar Learning in Spiking Neural Networks. In P. Bello, M. Guarini, M. McShane, &amp; B. Scassellati (Eds.), Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 36, Issue 36, pp. 427–432). Cognitive Science Society. https://escholarship.org/uc/item/75j1b2t0 <a href="https://escholarship.org/uc/item/75j1b2t0">link</a>
+                        </li>
+                        <li class="all-pubs-entry">
+                            Duarte, R. (2011). Self-organized sequence processing in recurrent neural networks with multiple interacting plasticity mechanisms [University of Algarve]. http://sapientia.ualg.pt/handle/10400.1/3786
+ <a href="http://hdl.handle.net/10400.1/3786">link</a>
+                        </li>
+<!-- PUBS_END -->
+                    </ol>
+                </details>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section id="links" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Elsewhere</h2>
+                <div class="links-grid">
+                    <a href="https://comp-neuro.org" class="link-card">
+                        <span class="link-card-title">CNNC Lab</span>
+                        <span class="link-card-desc">Research group website</span>
+                    </a>
+                    <a href="https://groundedneuro.substack.com" class="link-card">
+                        <span class="link-card-title">Grounded Neuro</span>
+                        <span class="link-card-desc">Newsletter</span>
+                    </a>
+                    <a href="https://github.com/CNNC-Lab" class="link-card">
+                        <span class="link-card-title">GitHub (Lab)</span>
+                        <span class="link-card-desc">CNNC-Lab organization</span>
+                    </a>
+                    <a href="https://github.com/rcfduarte" class="link-card">
+                        <span class="link-card-title">GitHub (Personal)</span>
+                        <span class="link-card-desc">Open-source projects</span>
+                    </a>
+                    <a href="https://scholar.google.de/citations?user=NeD4kokAAAAJ&hl=en" class="link-card">
+                        <span class="link-card-title">Google Scholar</span>
+                        <span class="link-card-desc">Publications &amp; citations</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renatocfduarte/" class="link-card">
+                        <span class="link-card-title">LinkedIn</span>
+                        <span class="link-card-desc">Professional profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Renato Duarte &middot; University of Coimbra</p>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var links = document.querySelector('.nav-links');
+        toggle.addEventListener('click', function() {
+            var open = links.classList.toggle('nav-open');
+            toggle.classList.toggle('active', open);
+            toggle.setAttribute('aria-expanded', open);
+        });
+        links.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                links.classList.remove('nav-open');
+                toggle.classList.remove('active');
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    })();
+    </script>
 </body>
 </html>

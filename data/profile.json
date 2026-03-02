@@ -1,0 +1,30 @@
+{
+  "name": "Renato Carlos Farinha Duarte",
+  "display_name": "Renato Duarte",
+  "title": "Assistant Researcher & Principal Investigator",
+  "field": "Computational & Theoretical Neuroscience",
+  "affiliation": "Center for Neuroscience and Cell Biology (CNC-UC) & Centre for Innovative Biomedicine and Biotechnology (CiBB)",
+  "institution": "University of Coimbra, Portugal",
+  "lab": "Computational Neuroscience & Neural Computation (CNNC)",
+  "email": "renato.duarte@cnc.uc.pt",
+  "orcid": "0000-0001-6099-667X",
+  "twitter": "Renatocfduarte",
+  "links": {
+    "lab_website": "https://comp-neuro.org",
+    "newsletter": "https://groundedneuro.substack.com",
+    "github_lab": "https://github.com/CNNC-Lab",
+    "github_personal": "https://github.com/rcfduarte",
+    "google_scholar": "https://scholar.google.de/citations?user=NeD4kokAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/renatocfduarte/",
+    "orcid": "https://orcid.org/0000-0001-6099-667X"
+  },
+  "metrics": {
+    "citations": 365,
+    "h_index": 11,
+    "i10_index": 12,
+    "papers": "25+",
+    "years_active": "12+",
+    "last_updated": "2026-03-02",
+    "source": "Google Scholar"
+  }
+}

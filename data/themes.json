@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Reservoir Computing and Functional Neural Circuits",
+    "description": "",
+    "priority": "",
+    "keywords": [
+      "computation",
+      "dynamics",
+      "population"
+    ]
+  },
+  {
+    "name": "Reward-modulated learning",
+    "description": "",
+    "priority": "Low",
+    "keywords": [
+      "learning",
+      "plasticity",
+      "synapse",
+      "timescales"
+    ]
+  },
+  {
+    "name": "Cortical interfaces: cortico-striatal and corticothalamic interactions",
+    "description": "",
+    "priority": "Low",
+    "keywords": [
+      "anatomophysiology",
+      "microcircuit",
+      "dynamics",
+      "balance",
+      "computation"
+    ]
+  },
+  {
+    "name": "Transient dynamics and sequential metastability",
+    "description": "",
+    "priority": "Very High",
+    "keywords": [
+      "dynamics",
+      "population"
+    ]
+  },
+  {
+    "name": "Homosynaptic and Homeostatic Plasticity",
+    "description": "",
+    "priority": "Low",
+    "keywords": [
+      "synapse",
+      "plasticity",
+      "learning",
+      "dynamics",
+      "homeostasis"
+    ]
+  },
+  {
+    "name": "Cortical columns and canonical microcircuits",
+    "description": "",
+    "priority": "",
+    "keywords": [
+      "anatomophysiology",
+      "microcircuit",
+      "population",
+      "biophysics"
+    ]
+  },
+  {
+    "name": "Sequential Rule Learning and Rule-Based representations",
+    "description": "\n",
+    "priority": "High",
+    "keywords": [
+      "sequence-learning",
+      "compositionality",
+      "computation",
+      "learning"
+    ]
+  },
+  {
+    "name": "Circuit dynamics and EI balance",
+    "description": "",
+    "priority": "Medium",
+    "keywords": [
+      "dynamics",
+      "balance",
+      "population",
+      "microcircuit",
+      "SNN",
+      "biophysics"
+    ]
+  }
+]
